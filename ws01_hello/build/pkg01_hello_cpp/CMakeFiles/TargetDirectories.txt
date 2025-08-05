@@ -1,0 +1,10 @@
+/home/ubuntu/my_code/learn_ros2/ws01_hello/build/pkg01_hello_cpp/CMakeFiles/uninstall.dir
+/home/ubuntu/my_code/learn_ros2/ws01_hello/build/pkg01_hello_cpp/CMakeFiles/pkg01_hello_cpp_uninstall.dir
+/home/ubuntu/my_code/learn_ros2/ws01_hello/build/pkg01_hello_cpp/CMakeFiles/hello.dir
+/home/ubuntu/my_code/learn_ros2/ws01_hello/build/pkg01_hello_cpp/CMakeFiles/test.dir
+/home/ubuntu/my_code/learn_ros2/ws01_hello/build/pkg01_hello_cpp/CMakeFiles/edit_cache.dir
+/home/ubuntu/my_code/learn_ros2/ws01_hello/build/pkg01_hello_cpp/CMakeFiles/rebuild_cache.dir
+/home/ubuntu/my_code/learn_ros2/ws01_hello/build/pkg01_hello_cpp/CMakeFiles/list_install_components.dir
+/home/ubuntu/my_code/learn_ros2/ws01_hello/build/pkg01_hello_cpp/CMakeFiles/install.dir
+/home/ubuntu/my_code/learn_ros2/ws01_hello/build/pkg01_hello_cpp/CMakeFiles/install/local.dir
+/home/ubuntu/my_code/learn_ros2/ws01_hello/build/pkg01_hello_cpp/CMakeFiles/install/strip.dir
