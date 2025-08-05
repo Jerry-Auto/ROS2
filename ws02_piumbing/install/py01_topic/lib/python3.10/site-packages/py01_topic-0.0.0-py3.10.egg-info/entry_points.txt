@@ -1,0 +1,3 @@
+[console_scripts]
+demo01_talker_py = py01_topic.demo01_talker_py:main
+

@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-a018eab130e41c7e38f8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "cpp01_topic",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "cpp01_topic_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cpp01_topic_uninstall-6a87e7254d27e36716ef.json",
+					"name" : "cpp01_topic_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "demo01_talker_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-demo01_talker_cpp-e2bd5366eceb080addac.json",
+					"name" : "demo01_talker_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "demo02_listener_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-demo02_listener_cpp-e6aa08710afd2d8efb8c.json",
+					"name" : "demo02_listener_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-ecb4b39ad755ea661a7d.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/ubuntu/my_code/learn_ros2/ROS2/ws02_piumbing/build/cpp01_topic",
+		"source" : "/home/ubuntu/my_code/learn_ros2/ROS2/ws02_piumbing/src/cpp01_topic"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

@@ -1,0 +1,9 @@
+/home/ubuntu/my_code/learn_ros2/ROS2/ws02_piumbing/build/base_interfaces_demo/CMakeFiles/uninstall.dir
+/home/ubuntu/my_code/learn_ros2/ROS2/ws02_piumbing/build/base_interfaces_demo/CMakeFiles/base_interfaces_demo_uninstall.dir
+/home/ubuntu/my_code/learn_ros2/ROS2/ws02_piumbing/build/base_interfaces_demo/CMakeFiles/test.dir
+/home/ubuntu/my_code/learn_ros2/ROS2/ws02_piumbing/build/base_interfaces_demo/CMakeFiles/edit_cache.dir
+/home/ubuntu/my_code/learn_ros2/ROS2/ws02_piumbing/build/base_interfaces_demo/CMakeFiles/rebuild_cache.dir
+/home/ubuntu/my_code/learn_ros2/ROS2/ws02_piumbing/build/base_interfaces_demo/CMakeFiles/list_install_components.dir
+/home/ubuntu/my_code/learn_ros2/ROS2/ws02_piumbing/build/base_interfaces_demo/CMakeFiles/install.dir
+/home/ubuntu/my_code/learn_ros2/ROS2/ws02_piumbing/build/base_interfaces_demo/CMakeFiles/install/local.dir
+/home/ubuntu/my_code/learn_ros2/ROS2/ws02_piumbing/build/base_interfaces_demo/CMakeFiles/install/strip.dir

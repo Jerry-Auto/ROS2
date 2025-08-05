@@ -1,0 +1,6 @@
+[0.007s] Invoking command in '/home/ubuntu/my_code/learn_ros2/ROS2/ws01_hello/build/pkg01_hello_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/my_code/learn_ros2/ROS2/ws01_hello/build/pkg01_hello_cpp -- -j20 -l20
+[0.011s] [0mCMake Error: The current CMakeCache.txt directory /home/ubuntu/my_code/learn_ros2/ROS2/ws01_hello/build/pkg01_hello_cpp/CMakeCache.txt is different than the directory /home/ubuntu/my_code/learn_ros2/ws01_hello/build/pkg01_hello_cpp where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
+[0.019s] [0mCMake Error: The source directory "/home/ubuntu/my_code/learn_ros2/ws01_hello/src/pkg01_hello_cpp" does not exist.
+[0.019s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[0.019s] gmake: *** [Makefile:267：cmake_check_build_system] 错误 1
+[0.128s] Invoked command in '/home/ubuntu/my_code/learn_ros2/ROS2/ws01_hello/build/pkg01_hello_cpp' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/my_code/learn_ros2/ROS2/ws01_hello/build/pkg01_hello_cpp -- -j20 -l20

@@ -1,0 +1,21 @@
+[0.285s] Invoking command in '/home/ubuntu/my_code/learn_ros2/ROS2/ws02_piumbing/src/py01_topic': CMAKE_PREFIX_PATH=/home/ubuntu/my_code/learn_ros2/ROS2/ws02_piumbing/install/base_interfaces_demo:/home/ubuntu/my_code/learn_ros2/ROS2/ws02_piumbing/install/cpp01_topic:/home/ubuntu/my_code/learn_ros2/ROS2/ws01_hello/install/pkg01_hello_cpp PYTHONPATH=/home/ubuntu/my_code/learn_ros2/ROS2/ws02_piumbing/build/py01_topic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/my_code/learn_ros2/ROS2/ws02_piumbing/install/py01_topic/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py01_topic build --build-base /home/ubuntu/my_code/learn_ros2/ROS2/ws02_piumbing/build/py01_topic/build install --record /home/ubuntu/my_code/learn_ros2/ROS2/ws02_piumbing/build/py01_topic/install.log --single-version-externally-managed install_data
+[0.392s] running egg_info
+[0.392s] writing ../../build/py01_topic/py01_topic.egg-info/PKG-INFO
+[0.392s] writing dependency_links to ../../build/py01_topic/py01_topic.egg-info/dependency_links.txt
+[0.393s] writing entry points to ../../build/py01_topic/py01_topic.egg-info/entry_points.txt
+[0.393s] writing requirements to ../../build/py01_topic/py01_topic.egg-info/requires.txt
+[0.393s] writing top-level names to ../../build/py01_topic/py01_topic.egg-info/top_level.txt
+[0.394s] reading manifest file '../../build/py01_topic/py01_topic.egg-info/SOURCES.txt'
+[0.394s] writing manifest file '../../build/py01_topic/py01_topic.egg-info/SOURCES.txt'
+[0.394s] running build
+[0.394s] running build_py
+[0.394s] running install
+[0.394s] running install_lib
+[0.395s] running install_data
+[0.395s] running install_egg_info
+[0.396s] removing '/home/ubuntu/my_code/learn_ros2/ROS2/ws02_piumbing/install/py01_topic/lib/python3.10/site-packages/py01_topic-0.0.0-py3.10.egg-info' (and everything under it)
+[0.396s] Copying ../../build/py01_topic/py01_topic.egg-info to /home/ubuntu/my_code/learn_ros2/ROS2/ws02_piumbing/install/py01_topic/lib/python3.10/site-packages/py01_topic-0.0.0-py3.10.egg-info
+[0.396s] running install_scripts
+[0.407s] Installing demo01_talker_py script to /home/ubuntu/my_code/learn_ros2/ROS2/ws02_piumbing/install/py01_topic/lib/py01_topic
+[0.407s] writing list of installed files to '/home/ubuntu/my_code/learn_ros2/ROS2/ws02_piumbing/build/py01_topic/install.log'
+[0.422s] Invoked command in '/home/ubuntu/my_code/learn_ros2/ROS2/ws02_piumbing/src/py01_topic' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/my_code/learn_ros2/ROS2/ws02_piumbing/install/base_interfaces_demo:/home/ubuntu/my_code/learn_ros2/ROS2/ws02_piumbing/install/cpp01_topic:/home/ubuntu/my_code/learn_ros2/ROS2/ws01_hello/install/pkg01_hello_cpp PYTHONPATH=/home/ubuntu/my_code/learn_ros2/ROS2/ws02_piumbing/build/py01_topic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/my_code/learn_ros2/ROS2/ws02_piumbing/install/py01_topic/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py01_topic build --build-base /home/ubuntu/my_code/learn_ros2/ROS2/ws02_piumbing/build/py01_topic/build install --record /home/ubuntu/my_code/learn_ros2/ROS2/ws02_piumbing/build/py01_topic/install.log --single-version-externally-managed install_data
