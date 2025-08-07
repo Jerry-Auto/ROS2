@@ -1,13 +1,26 @@
-///节点定义片段
-	
-	"Print to console": {
+{
+	// Place your snippets for python here. Each snippet is defined under a snippet name and has a prefix, body and 
+	// description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the 
+	// same ids are connected.
+	// Example:
+	// "Print to console": {
+	// 	"prefix": "log",
+	// 	"body": [
+	// 		"console.log('$1');",
+	// 		"$2"
+	// 	],
+	// 	"description": "Log output to console"
+	// }
+
+	"ros2创建节点cpp文件": {
 		"prefix": "ros2_node_py",
 		"body": [
 				"# 1.导包；",
 				"import rclpy",
 				"from rclpy.node import Node",
 "",
-"",
+
 				"# 3.定义节点类；",
 				"class MyNode(Node):",
 "",
@@ -39,4 +52,97 @@
 				"    main()"
 		],
 		"description": "ros2 node func"
+	},
+
+	"ros2创建客户端py": {
+		"prefix": "ros2_client_py",
+		"body": [
+				"\"\"\"",
+				"    需求：编写客户端，发送两个整型变量作为请求数据，并处理响应结果。",
+				"    步骤：",
+				"        1.导包；",
+				"        2.初始化 ROS2 客户端；",
+				"        3.定义节点类；",
+				"            3-1.创建客户端；",
+				"            3-2.等待服务连接；",
+				"            3-3.组织请求数据并发送；",
+				"        4.创建对象调用其功能，处理响应结果；",
+				"        5.释放资源。",
+"",
+				"需要修改的变量名：",
+				"    MyInterfacePkg      自定义的接口包名称",
+				"    MySrvType           .srv的名称",
+				"    Mynode              节点名称",
+				"    globle_log_py     全局日志名",
+"",
+				"需要自定义的地方：",
+				"    def send_request(self):          请求输入需要自定义",
+				"",
+				"\"\"\"",
+"",
+"",
+				"# 1.导包；",
+				"import rclpy",
+				"from rclpy.node import Node",
+				"from rclpy.logging import get_logger",
+				"import sys",
+"",
+				"from MyInterfacePkg.srv import MySrvType",
+"",
+				"# 3.定义节点类；",
+				"class MyNode(Node):",
+"",
+				"    def __init__(self):",
+				"        super().__init__('Client_py')",
+				"        #创建客户端",
+				"        self.client=self.create_client(MySrvType,\"MySrvType\")",
+				"        self.get_logger().info(\"客户端启动！\")",
+				"        #等待服务连接",
+				"        while not self.client.wait_for_service(1.0):",
+				"            self.get_logger().info(\"服务连接中.....\")",
+				"        #请求数据初始化",
+				"        self.request=MySrvType.Request()",
+"",
+"",
+				"    # 3-3.组织消息并发布。",
+				"    def send_request(self):",
+				"        self.request.num1=int(sys.argv[1])",
+				"        self.future=self.client.call_async(self.request)",
+"",
+"",
+				"def main(args=None):",
+				"    #校验输入",
+				"    if len(sys.argv)!=4:",
+				"        get_logger(\"globle_log_py\").info(\"请提交正确数量的输入！\")",
+				"        return",
+				"    ",
+				"    # 2.初始化 ROS2 客户端；",
+				"    rclpy.init(args=args)",
+"",
+"",
+				"    # 4.调用对象，发送请求;",
+				"    my_node = MyNode()",
+				"    my_node.send_request()",
+"",
+"",
+				"    #处理响应",
+				"    rclpy.spin_until_future_complete(my_node,my_node.future)",
+"",
+				"    #通过异常捕获确定是否返回处理结果",
+				"    try:",
+				"        response=my_node.future.result()",
+				"    except Exception as e:",
+				"        my_node.get_logger().error(\"服务请求失败！%r\"%(e,))",
+				"    else:",
+				"        my_node.get_logger().info('响应结果：')",
+				"    ",
+				"    # 5.释放资源。",
+				"    rclpy.shutdown()",
+"",
+"",
+				"if __name__ == '__main__':",
+				"    main()",
+		],
+		"description": "创建一份client的py文件"
 	}
+}

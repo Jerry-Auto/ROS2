@@ -1,12 +1,49 @@
-	
-	"Print to console": {
-		"prefix": "msg_Cmake_conf",
+{
+	// Place your snippets for cmake here. Each snippet is defined under a snippet name and has a prefix, body and 
+	// description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the 
+	// same ids are connected.
+	// Example:
+	// "Print to console": {
+	// 	"prefix": "log",
+	// 	"body": [
+	// 		"console.log('$1');",
+	// 		"$2"
+	// 	],
+	// 	"description": "Log output to console"
+	// }
+
+
+
+
+	"ROS2 消息 CMake 配置": {
+		"prefix": "ros2_msg_Cmake_conf",
 		"body": [
 				"find_package(rosidl_default_generators REQUIRED)",
 				"rosidl_generate_interfaces(",
-				"${PROJECT_NAME}",
-				"\"msg/your_data_type.msg\"",
-				")",
+				"\\${PROJECT_NAME}",
+				"\"msg/Student.msg\"",
+				")"
 		],
 		"description": "conf msg cmakelists.txt"
+	},
+
+	"ROS2 C++节点 CMake 配置": {
+		"prefix": "ros2_src_cpp_Cmake_conf",
+		"body": [
+				"find_package(your_interfaces_pkg_name REQUIRED)",
+				"add_executable(new_cpp src/new_cpp.cpp)",
+"",
+				"ament_target_dependencies(",
+				"new_cpp",
+				"\"rclcpp\"",
+				"\"your_interfaces_pkg_name\"",
+				")",
+"",
+				"install(TARGETS new_cpp",
+				"DESTINATION lib/\\${PROJECT_NAME}",
+				")",
+		],
+		"description": "conf cpp cmakelists.txt"
 	}
+}
