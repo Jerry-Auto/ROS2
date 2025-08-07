@@ -30,7 +30,6 @@ add_executable(demo02_listener_cpp src/demo02_listener_cpp.cpp)
 target_include_directories(demo02_listener_cpp PUBLIC
   $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
   $<INSTALL_INTERFACE:include>)
-target_compile_features(demo02_listener_cpp PUBLIC c_std_99 cxx_std_17)  # Require C99 and C++17
 ament_target_dependencies(
   demo02_listener_cpp
   "rclcpp"
@@ -39,6 +38,30 @@ ament_target_dependencies(
 )
 install(TARGETS demo02_listener_cpp
   DESTINATION lib/${PROJECT_NAME})
+
+add_executable(demo03_talker_stu src/demo03_talker_stu.cpp)
+
+ament_target_dependencies(
+demo03_talker_stu
+"rclcpp"
+"base_interfaces_demo"
+)
+
+install(TARGETS demo03_talker_stu
+DESTINATION lib/${PROJECT_NAME})
+
+add_executable(demo04_listener_stu src/demo04_listener_stu.cpp)
+
+ament_target_dependencies(
+demo04_listener_stu
+"rclcpp"
+"base_interfaces_demo"
+)
+
+install(TARGETS demo04_listener_stu
+DESTINATION lib/${PROJECT_NAME}
+)
+
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)

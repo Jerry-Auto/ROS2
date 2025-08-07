@@ -1,0 +1,44 @@
+running develop
+Removing /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_piumbing/install/py01_topic/lib/python3.10/site-packages/py01-topic.egg-link (link to .)
+running egg_info
+writing ../../build/py01_topic/py01_topic.egg-info/PKG-INFO
+writing dependency_links to ../../build/py01_topic/py01_topic.egg-info/dependency_links.txt
+writing entry points to ../../build/py01_topic/py01_topic.egg-info/entry_points.txt
+writing requirements to ../../build/py01_topic/py01_topic.egg-info/requires.txt
+writing top-level names to ../../build/py01_topic/py01_topic.egg-info/top_level.txt
+reading manifest file '../../build/py01_topic/py01_topic.egg-info/SOURCES.txt'
+writing manifest file '../../build/py01_topic/py01_topic.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_piumbing/build/py01_topic/build
+creating /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_piumbing/build/py01_topic/build/lib
+creating /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_piumbing/build/py01_topic/build/lib/py01_topic
+copying py01_topic/demo03_talker_stu.py -> /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_piumbing/build/py01_topic/build/lib/py01_topic
+copying py01_topic/demo04_listener_stu.py -> /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_piumbing/build/py01_topic/build/lib/py01_topic
+copying py01_topic/demo01_talker_py.py -> /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_piumbing/build/py01_topic/build/lib/py01_topic
+copying py01_topic/__init__.py -> /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_piumbing/build/py01_topic/build/lib/py01_topic
+copying py01_topic/demo02_listener_py.py -> /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_piumbing/build/py01_topic/build/lib/py01_topic
+running install
+running install_lib
+creating /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_piumbing/install/py01_topic/lib/python3.10/site-packages/py01_topic
+copying /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_piumbing/build/py01_topic/build/lib/py01_topic/demo03_talker_stu.py -> /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_piumbing/install/py01_topic/lib/python3.10/site-packages/py01_topic
+copying /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_piumbing/build/py01_topic/build/lib/py01_topic/demo04_listener_stu.py -> /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_piumbing/install/py01_topic/lib/python3.10/site-packages/py01_topic
+copying /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_piumbing/build/py01_topic/build/lib/py01_topic/demo01_talker_py.py -> /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_piumbing/install/py01_topic/lib/python3.10/site-packages/py01_topic
+copying /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_piumbing/build/py01_topic/build/lib/py01_topic/__init__.py -> /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_piumbing/install/py01_topic/lib/python3.10/site-packages/py01_topic
+copying /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_piumbing/build/py01_topic/build/lib/py01_topic/demo02_listener_py.py -> /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_piumbing/install/py01_topic/lib/python3.10/site-packages/py01_topic
+byte-compiling /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_piumbing/install/py01_topic/lib/python3.10/site-packages/py01_topic/demo03_talker_stu.py to demo03_talker_stu.cpython-310.pyc
+byte-compiling /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_piumbing/install/py01_topic/lib/python3.10/site-packages/py01_topic/demo04_listener_stu.py to demo04_listener_stu.cpython-310.pyc
+byte-compiling /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_piumbing/install/py01_topic/lib/python3.10/site-packages/py01_topic/demo01_talker_py.py to demo01_talker_py.cpython-310.pyc
+byte-compiling /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_piumbing/install/py01_topic/lib/python3.10/site-packages/py01_topic/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_piumbing/install/py01_topic/lib/python3.10/site-packages/py01_topic/demo02_listener_py.py to demo02_listener_py.cpython-310.pyc
+running install_data
+copying resource/py01_topic -> /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_piumbing/install/py01_topic/share/ament_index/resource_index/packages
+copying package.xml -> /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_piumbing/install/py01_topic/share/py01_topic
+running install_egg_info
+Copying ../../build/py01_topic/py01_topic.egg-info to /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_piumbing/install/py01_topic/lib/python3.10/site-packages/py01_topic-0.0.0-py3.10.egg-info
+running install_scripts
+Installing demo01_talker_py script to /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_piumbing/install/py01_topic/lib/py01_topic
+Installing demo02_listener_py script to /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_piumbing/install/py01_topic/lib/py01_topic
+Installing demo03_talker_stu script to /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_piumbing/install/py01_topic/lib/py01_topic
+Installing demo04_listener_stu script to /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_piumbing/install/py01_topic/lib/py01_topic
+writing list of installed files to '/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_piumbing/build/py01_topic/install.log'

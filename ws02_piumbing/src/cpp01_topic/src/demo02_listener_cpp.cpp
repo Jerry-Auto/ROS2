@@ -24,6 +24,10 @@ class MinimalSubscriber : public rclcpp::Node
     : Node("minimal_subscriber")
     {
       // 3-1.创建订阅方；
+      /* 
+      typename MessageT接收到的数据的类型被显式定义为std_msgs::msg::String
+      通过占位符将话题数据传到回调函数
+      */
       subscription_ = this->create_subscription<std_msgs::msg::String>("topic", 10, std::bind(&MinimalSubscriber::topic_callback, this, _1));
     }
 

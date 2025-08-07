@@ -1,0 +1,7 @@
+{
+  "package_name": "base_interfaces_demo",
+  "non_idl_tuples": [
+    "/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_piumbing/src/base_interfaces_demo:msg/Student.msg",
+    "/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_piumbing/src/base_interfaces_demo:srv/AddInts.srv"
+  ]
+}

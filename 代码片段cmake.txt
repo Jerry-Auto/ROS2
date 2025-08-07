@@ -1,0 +1,12 @@
+	
+	"Print to console": {
+		"prefix": "msg_Cmake_conf",
+		"body": [
+				"find_package(rosidl_default_generators REQUIRED)",
+				"rosidl_generate_interfaces(",
+				"${PROJECT_NAME}",
+				"\"msg/your_data_type.msg\"",
+				")",
+		],
+		"description": "conf msg cmakelists.txt"
+	}

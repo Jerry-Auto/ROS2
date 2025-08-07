@@ -10,6 +10,9 @@ setup.py
 ../../build/py01_topic/py01_topic.egg-info/zip-safe
 py01_topic/__init__.py
 py01_topic/demo01_talker_py.py
+py01_topic/demo02_listener_py.py
+py01_topic/demo03_talker_stu.py
+py01_topic/demo04_listener_stu.py
 resource/py01_topic
 test/test_copyright.py
 test/test_flake8.py

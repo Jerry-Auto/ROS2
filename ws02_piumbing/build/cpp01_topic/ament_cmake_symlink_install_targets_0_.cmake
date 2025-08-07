@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_piumbing/build/cpp01_topic/demo01_talker_cpp" "TARGETS" "demo01_talker_cpp" "DESTINATION" "lib/cpp01_topic")

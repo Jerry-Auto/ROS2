@@ -1,0 +1,27 @@
+[0.366s] Invoking command in '/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_piumbing/build/py01_topic': CMAKE_PREFIX_PATH=/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_piumbing/install/base_interfaces_demo:/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws01_hello/install/pkg01_hello_cpp:/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_piumbing/install/cpp01_topic:/home/zhangjinrui/ROS2/dev_ws_foxy/install/learning_topic_cpp:/home/zhangjinrui/ROS2/dev_ws_foxy/install/learning_tf_cpp:/home/zhangjinrui/ROS2/dev_ws_foxy/install/learning_service_cpp:/home/zhangjinrui/ROS2/dev_ws_foxy/install/learning_pkg_c:/home/zhangjinrui/ROS2/dev_ws_foxy/install/learning_parameter_cpp:/home/zhangjinrui/ROS2/dev_ws_foxy/install/learning_node_cpp:/home/zhangjinrui/ROS2/dev_ws_foxy/install/learning_action_cpp:/home/zhangjinrui/ROS2/dev_ws_foxy/install/learning_interface PYTHONPATH=/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_piumbing/build/py01_topic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_piumbing/install/py01_topic/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_piumbing/build/py01_topic/build --no-deps symlink_data
+[0.499s] running develop
+[0.533s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.12.1-git20200711.33e2d80-dfsg1-0.6 is an invalid version and will not be supported in a future release
+[0.533s]   warnings.warn(
+[0.586s] running egg_info
+[0.587s] creating py01_topic.egg-info
+[0.587s] writing py01_topic.egg-info/PKG-INFO
+[0.587s] writing dependency_links to py01_topic.egg-info/dependency_links.txt
+[0.587s] writing entry points to py01_topic.egg-info/entry_points.txt
+[0.587s] writing requirements to py01_topic.egg-info/requires.txt
+[0.587s] writing top-level names to py01_topic.egg-info/top_level.txt
+[0.587s] writing manifest file 'py01_topic.egg-info/SOURCES.txt'
+[0.588s] reading manifest file 'py01_topic.egg-info/SOURCES.txt'
+[0.588s] writing manifest file 'py01_topic.egg-info/SOURCES.txt'
+[0.605s] running build_ext
+[0.606s] Creating /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_piumbing/install/py01_topic/lib/python3.10/site-packages/py01-topic.egg-link (link to .)
+[0.606s] Installing demo01_talker_py script to /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_piumbing/install/py01_topic/lib/py01_topic
+[0.606s] Installing demo02_listener_py script to /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_piumbing/install/py01_topic/lib/py01_topic
+[0.606s] 
+[0.607s] Installed /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_piumbing/build/py01_topic
+[0.607s] running symlink_data
+[0.607s] creating /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_piumbing/install/py01_topic/share/ament_index
+[0.607s] creating /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_piumbing/install/py01_topic/share/ament_index/resource_index
+[0.607s] creating /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_piumbing/install/py01_topic/share/ament_index/resource_index/packages
+[0.607s] symbolically linking /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_piumbing/build/py01_topic/resource/py01_topic -> /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_piumbing/install/py01_topic/share/ament_index/resource_index/packages
+[0.607s] symbolically linking /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_piumbing/build/py01_topic/package.xml -> /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_piumbing/install/py01_topic/share/py01_topic
+[0.626s] Invoked command in '/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_piumbing/build/py01_topic' returned '0': CMAKE_PREFIX_PATH=/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_piumbing/install/base_interfaces_demo:/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws01_hello/install/pkg01_hello_cpp:/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_piumbing/install/cpp01_topic:/home/zhangjinrui/ROS2/dev_ws_foxy/install/learning_topic_cpp:/home/zhangjinrui/ROS2/dev_ws_foxy/install/learning_tf_cpp:/home/zhangjinrui/ROS2/dev_ws_foxy/install/learning_service_cpp:/home/zhangjinrui/ROS2/dev_ws_foxy/install/learning_pkg_c:/home/zhangjinrui/ROS2/dev_ws_foxy/install/learning_parameter_cpp:/home/zhangjinrui/ROS2/dev_ws_foxy/install/learning_node_cpp:/home/zhangjinrui/ROS2/dev_ws_foxy/install/learning_action_cpp:/home/zhangjinrui/ROS2/dev_ws_foxy/install/learning_interface PYTHONPATH=/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_piumbing/build/py01_topic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_piumbing/install/py01_topic/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_piumbing/build/py01_topic/build --no-deps symlink_data

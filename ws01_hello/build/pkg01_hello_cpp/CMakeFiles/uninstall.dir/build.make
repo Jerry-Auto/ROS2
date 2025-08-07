@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/my_code/learn_ros2/ROS2/ws01_hello/src/pkg01_hello_cpp
+CMAKE_SOURCE_DIR = /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws01_hello/src/pkg01_hello_cpp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/my_code/learn_ros2/ROS2/ws01_hello/build/pkg01_hello_cpp
+CMAKE_BINARY_DIR = /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws01_hello/build/pkg01_hello_cpp
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/ubuntu/my_code/learn_ros2/ROS2/ws01_hello/build/pkg01_hello_cpp && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/my_code/learn_ros2/ROS2/ws01_hello/src/pkg01_hello_cpp /home/ubuntu/my_code/learn_ros2/ROS2/ws01_hello/src/pkg01_hello_cpp /home/ubuntu/my_code/learn_ros2/ROS2/ws01_hello/build/pkg01_hello_cpp /home/ubuntu/my_code/learn_ros2/ROS2/ws01_hello/build/pkg01_hello_cpp /home/ubuntu/my_code/learn_ros2/ROS2/ws01_hello/build/pkg01_hello_cpp/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws01_hello/build/pkg01_hello_cpp && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws01_hello/src/pkg01_hello_cpp /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws01_hello/src/pkg01_hello_cpp /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws01_hello/build/pkg01_hello_cpp /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws01_hello/build/pkg01_hello_cpp /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws01_hello/build/pkg01_hello_cpp/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 
