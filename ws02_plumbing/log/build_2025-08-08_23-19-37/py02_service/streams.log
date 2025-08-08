@@ -1,0 +1,41 @@
+[0.596s] Invoking command in '/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/src/py02_service': AMENT_PREFIX_PATH=/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/build/py02_service/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/py02_service/lib/python3.10/site-packages:/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py02_service build --build-base /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/build/py02_service/build install --record /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/build/py02_service/install.log --single-version-externally-managed install_data
+[0.719s] running egg_info
+[0.719s] creating ../../build/py02_service/py02_service.egg-info
+[0.719s] writing ../../build/py02_service/py02_service.egg-info/PKG-INFO
+[0.719s] writing dependency_links to ../../build/py02_service/py02_service.egg-info/dependency_links.txt
+[0.719s] writing entry points to ../../build/py02_service/py02_service.egg-info/entry_points.txt
+[0.719s] writing requirements to ../../build/py02_service/py02_service.egg-info/requires.txt
+[0.720s] writing top-level names to ../../build/py02_service/py02_service.egg-info/top_level.txt
+[0.720s] writing manifest file '../../build/py02_service/py02_service.egg-info/SOURCES.txt'
+[0.720s] reading manifest file '../../build/py02_service/py02_service.egg-info/SOURCES.txt'
+[0.721s] writing manifest file '../../build/py02_service/py02_service.egg-info/SOURCES.txt'
+[0.721s] running build
+[0.721s] running build_py
+[0.721s] creating /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/build/py02_service/build
+[0.721s] creating /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/build/py02_service/build/lib
+[0.721s] creating /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/build/py02_service/build/lib/py02_service
+[0.721s] copying py02_service/__init__.py -> /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/build/py02_service/build/lib/py02_service
+[0.721s] copying py02_service/demo02_client.py -> /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/build/py02_service/build/lib/py02_service
+[0.721s] copying py02_service/demo01_service.py -> /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/build/py02_service/build/lib/py02_service
+[0.721s] running install
+[0.721s] running install_lib
+[0.721s] creating /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/py02_service/lib/python3.10/site-packages/py02_service
+[0.722s] copying /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/build/py02_service/build/lib/py02_service/__init__.py -> /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/py02_service/lib/python3.10/site-packages/py02_service
+[0.722s] copying /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/build/py02_service/build/lib/py02_service/demo02_client.py -> /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/py02_service/lib/python3.10/site-packages/py02_service
+[0.722s] copying /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/build/py02_service/build/lib/py02_service/demo01_service.py -> /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/py02_service/lib/python3.10/site-packages/py02_service
+[0.722s] byte-compiling /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/py02_service/lib/python3.10/site-packages/py02_service/__init__.py to __init__.cpython-310.pyc
+[0.722s] byte-compiling /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/py02_service/lib/python3.10/site-packages/py02_service/demo02_client.py to demo02_client.cpython-310.pyc
+[0.722s] byte-compiling /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/py02_service/lib/python3.10/site-packages/py02_service/demo01_service.py to demo01_service.cpython-310.pyc
+[0.723s] running install_data
+[0.723s] creating /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/py02_service/share/ament_index
+[0.723s] creating /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/py02_service/share/ament_index/resource_index
+[0.723s] creating /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/py02_service/share/ament_index/resource_index/packages
+[0.723s] copying resource/py02_service -> /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/py02_service/share/ament_index/resource_index/packages
+[0.723s] copying package.xml -> /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/py02_service/share/py02_service
+[0.723s] running install_egg_info
+[0.724s] Copying ../../build/py02_service/py02_service.egg-info to /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/py02_service/lib/python3.10/site-packages/py02_service-0.0.0-py3.10.egg-info
+[0.725s] running install_scripts
+[0.737s] Installing demo01_service script to /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/py02_service/lib/py02_service
+[0.737s] Installing demo02_client script to /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/py02_service/lib/py02_service
+[0.737s] writing list of installed files to '/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/build/py02_service/install.log'
+[0.753s] Invoked command in '/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/src/py02_service' returned '0': AMENT_PREFIX_PATH=/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/build/py02_service/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/py02_service/lib/python3.10/site-packages:/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py02_service build --build-base /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/build/py02_service/build install --record /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/build/py02_service/install.log --single-version-externally-managed install_data

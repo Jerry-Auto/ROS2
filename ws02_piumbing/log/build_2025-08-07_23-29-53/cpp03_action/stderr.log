@@ -1,7 +1,0 @@
-[01m[K/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_piumbing/src/cpp03_action/src/demo02_action_client.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
-[01m[K/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_piumbing/src/cpp03_action/src/demo02_action_client.cpp:122:30:[m[K [01;31m[Kerror: [m[Kcast from ‘[01m[Kchar*[m[K’ to ‘[01m[Kint[m[K’ loses precision [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
-  122 |     action_client->send_goal([01;31m[Kint(argv[1])[m[K);
-      |                              [01;31m[K^~~~~~~~~~~~[m[K
-gmake[2]: *** [CMakeFiles/demo02_action_client.dir/build.make:76：CMakeFiles/demo02_action_client.dir/src/demo02_action_client.cpp.o] 错误 1
-gmake[1]: *** [CMakeFiles/Makefile2:165：CMakeFiles/demo02_action_client.dir/all] 错误 2
-gmake: *** [Makefile:146：all] 错误 2

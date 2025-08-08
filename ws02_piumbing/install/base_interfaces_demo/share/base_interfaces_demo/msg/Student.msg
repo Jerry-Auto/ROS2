@@ -1,1 +1,0 @@
-/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_piumbing/src/base_interfaces_demo/msg/Student.msg

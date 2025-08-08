@@ -1,0 +1,319 @@
+[0.010s] Invoking command in '/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/build/base_interfaces_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws01_hello/install/pkg02_hello_py:/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_piumbing/install/py02_service:/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_piumbing/install/py01_topic:/opt/ros/humble:/home/zhangjinrui/ROS2/dev_ws_foxy/install/learning_urdf:/home/zhangjinrui/ROS2/dev_ws_foxy/install/learning_topic:/home/zhangjinrui/ROS2/dev_ws_foxy/install/learning_tf:/home/zhangjinrui/ROS2/dev_ws_foxy/install/learning_service:/home/zhangjinrui/ROS2/dev_ws_foxy/install/learning_qos:/home/zhangjinrui/ROS2/dev_ws_foxy/install/learning_pkg_python:/home/zhangjinrui/ROS2/dev_ws_foxy/install/learning_parameter:/home/zhangjinrui/ROS2/dev_ws_foxy/install/learning_node:/home/zhangjinrui/ROS2/dev_ws_foxy/install/learning_launch:/home/zhangjinrui/ROS2/dev_ws_foxy/install/learning_action:/home/zhangjinrui/ROS2/dev_ws_foxy/install/learning_gazebo_harmonic:/home/zhangjinrui/ROS2/dev_ws_foxy/install/learning_gazebo:/home/zhangjinrui/ROS2/dev_ws_foxy/install/learning_cv /usr/bin/cmake /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/src/base_interfaces_demo -DCMAKE_INSTALL_PREFIX=/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo
+[0.041s] -- The C compiler identification is GNU 11.4.0
+[0.072s] -- The CXX compiler identification is GNU 11.4.0
+[0.076s] -- Detecting C compiler ABI info
+[0.117s] -- Detecting C compiler ABI info - done
+[0.120s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.120s] -- Detecting C compile features
+[0.121s] -- Detecting C compile features - done
+[0.122s] -- Detecting CXX compiler ABI info
+[0.170s] -- Detecting CXX compiler ABI info - done
+[0.174s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.174s] -- Detecting CXX compile features
+[0.174s] -- Detecting CXX compile features - done
+[0.176s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.277s] -- Found Python3: /usr/bin/python3 (found version "3.10.18") found components: Interpreter 
+[0.329s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.332s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.335s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.357s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.555s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.678s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.842s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.859s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.18", minimum required is "3.6") 
+[0.859s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[0.878s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.18", minimum required is "3.5") 
+[0.878s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.878s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[0.878s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[0.894s] -- Found PythonExtra: .so  
+[0.921s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.925s] -- Configuring done
+[0.947s] -- Generating done
+[0.954s] -- Build files have been written to: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/build/base_interfaces_demo
+[0.960s] Invoked command in '/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/build/base_interfaces_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws01_hello/install/pkg02_hello_py:/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_piumbing/install/py02_service:/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_piumbing/install/py01_topic:/opt/ros/humble:/home/zhangjinrui/ROS2/dev_ws_foxy/install/learning_urdf:/home/zhangjinrui/ROS2/dev_ws_foxy/install/learning_topic:/home/zhangjinrui/ROS2/dev_ws_foxy/install/learning_tf:/home/zhangjinrui/ROS2/dev_ws_foxy/install/learning_service:/home/zhangjinrui/ROS2/dev_ws_foxy/install/learning_qos:/home/zhangjinrui/ROS2/dev_ws_foxy/install/learning_pkg_python:/home/zhangjinrui/ROS2/dev_ws_foxy/install/learning_parameter:/home/zhangjinrui/ROS2/dev_ws_foxy/install/learning_node:/home/zhangjinrui/ROS2/dev_ws_foxy/install/learning_launch:/home/zhangjinrui/ROS2/dev_ws_foxy/install/learning_action:/home/zhangjinrui/ROS2/dev_ws_foxy/install/learning_gazebo_harmonic:/home/zhangjinrui/ROS2/dev_ws_foxy/install/learning_gazebo:/home/zhangjinrui/ROS2/dev_ws_foxy/install/learning_cv /usr/bin/cmake /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/src/base_interfaces_demo -DCMAKE_INSTALL_PREFIX=/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo
+[0.961s] Invoking command in '/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/build/base_interfaces_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws01_hello/install/pkg02_hello_py:/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_piumbing/install/py02_service:/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_piumbing/install/py01_topic:/opt/ros/humble:/home/zhangjinrui/ROS2/dev_ws_foxy/install/learning_urdf:/home/zhangjinrui/ROS2/dev_ws_foxy/install/learning_topic:/home/zhangjinrui/ROS2/dev_ws_foxy/install/learning_tf:/home/zhangjinrui/ROS2/dev_ws_foxy/install/learning_service:/home/zhangjinrui/ROS2/dev_ws_foxy/install/learning_qos:/home/zhangjinrui/ROS2/dev_ws_foxy/install/learning_pkg_python:/home/zhangjinrui/ROS2/dev_ws_foxy/install/learning_parameter:/home/zhangjinrui/ROS2/dev_ws_foxy/install/learning_node:/home/zhangjinrui/ROS2/dev_ws_foxy/install/learning_launch:/home/zhangjinrui/ROS2/dev_ws_foxy/install/learning_action:/home/zhangjinrui/ROS2/dev_ws_foxy/install/learning_gazebo_harmonic:/home/zhangjinrui/ROS2/dev_ws_foxy/install/learning_gazebo:/home/zhangjinrui/ROS2/dev_ws_foxy/install/learning_cv /usr/bin/cmake --build /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/build/base_interfaces_demo -- -j24 -l24
+[0.984s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[0.991s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[0.995s] [  4%] Built target ament_cmake_python_copy_base_interfaces_demo
+[1.117s] running egg_info
+[1.117s] creating base_interfaces_demo.egg-info
+[1.117s] writing base_interfaces_demo.egg-info/PKG-INFO
+[1.117s] writing dependency_links to base_interfaces_demo.egg-info/dependency_links.txt
+[1.117s] writing top-level names to base_interfaces_demo.egg-info/top_level.txt
+[1.117s] writing manifest file 'base_interfaces_demo.egg-info/SOURCES.txt'
+[1.118s] reading manifest file 'base_interfaces_demo.egg-info/SOURCES.txt'
+[1.118s] writing manifest file 'base_interfaces_demo.egg-info/SOURCES.txt'
+[1.137s] [  4%] Built target ament_cmake_python_build_base_interfaces_demo_egg
+[1.243s] [  4%] Built target base_interfaces_demo__cpp
+[1.248s] [  8%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.248s] [  8%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.248s] [ 10%] [32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_generator_c.dir/rosidl_generator_c/base_interfaces_demo/msg/detail/student__functions.c.o[0m
+[1.249s] [ 12%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.249s] [ 14%] [32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_generator_c.dir/rosidl_generator_c/base_interfaces_demo/action/detail/progress__functions.c.o[0m
+[1.250s] [ 17%] [32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_generator_c.dir/rosidl_generator_c/base_interfaces_demo/srv/detail/add_ints__functions.c.o[0m
+[1.317s] [ 19%] [32m[1mLinking C shared library libbase_interfaces_demo__rosidl_generator_c.so[0m
+[1.340s] [ 19%] Built target base_interfaces_demo__rosidl_generator_c
+[1.346s] [ 23%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.347s] [ 23%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.347s] [ 25%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.417s] [ 27%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/base_interfaces_demo/srv/add_ints__type_support.cpp.o[0m
+[1.417s] [ 29%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/base_interfaces_demo/msg/student__type_support.cpp.o[0m
+[1.418s] [ 31%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/base_interfaces_demo/action/progress__type_support.cpp.o[0m
+[1.447s] [ 36%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/base_interfaces_demo/msg/detail/student__type_support.cpp.o[0m
+[1.447s] [ 36%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/base_interfaces_demo/srv/detail/add_ints__type_support.cpp.o[0m
+[1.447s] [ 38%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/base_interfaces_demo/action/detail/progress__type_support.cpp.o[0m
+[1.491s] [ 42%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/base_interfaces_demo/action/detail/dds_fastrtps/progress__type_support.cpp.o[0m
+[1.491s] [ 42%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/base_interfaces_demo/srv/detail/dds_fastrtps/add_ints__type_support.cpp.o[0m
+[1.492s] [ 44%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/base_interfaces_demo/msg/detail/dds_fastrtps/student__type_support.cpp.o[0m
+[1.519s] [ 46%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_c.dir/rosidl_typesupport_c/base_interfaces_demo/msg/student__type_support.cpp.o[0m
+[1.519s] [ 48%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_c.dir/rosidl_typesupport_c/base_interfaces_demo/action/progress__type_support.cpp.o[0m
+[1.520s] [ 51%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_c.dir/rosidl_typesupport_c/base_interfaces_demo/srv/add_ints__type_support.cpp.o[0m
+[1.557s] [ 53%] [32m[1mLinking CXX shared library libbase_interfaces_demo__rosidl_typesupport_c.so[0m
+[1.570s] [ 57%] [32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/base_interfaces_demo/msg/detail/student__type_support.c.o[0m
+[1.570s] [ 57%] [32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/base_interfaces_demo/srv/detail/add_ints__type_support.c.o[0m
+[1.571s] [ 59%] [32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/base_interfaces_demo/action/detail/progress__type_support.c.o[0m
+[1.573s] [ 63%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/base_interfaces_demo/action/detail/progress__type_support_c.cpp.o[0m
+[1.573s] [ 63%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/base_interfaces_demo/srv/detail/add_ints__type_support_c.cpp.o[0m
+[1.575s] [ 65%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/base_interfaces_demo/msg/detail/student__type_support_c.cpp.o[0m
+[1.588s] [ 65%] Built target base_interfaces_demo__rosidl_typesupport_c
+[1.602s] [ 68%] [32m[1mLinking C shared library libbase_interfaces_demo__rosidl_typesupport_introspection_c.so[0m
+[1.625s] [ 68%] Built target base_interfaces_demo__rosidl_typesupport_introspection_c
+[1.674s] [ 70%] [32m[1mLinking CXX shared library libbase_interfaces_demo__rosidl_typesupport_cpp.so[0m
+[1.699s] [ 70%] Built target base_interfaces_demo__rosidl_typesupport_cpp
+[1.764s] [ 72%] [32m[1mLinking CXX shared library libbase_interfaces_demo__rosidl_typesupport_introspection_cpp.so[0m
+[1.772s] [ 74%] [32m[1mLinking CXX shared library libbase_interfaces_demo__rosidl_typesupport_fastrtps_c.so[0m
+[1.784s] [ 76%] [32m[1mLinking CXX shared library libbase_interfaces_demo__rosidl_typesupport_fastrtps_cpp.so[0m
+[1.808s] [ 76%] Built target base_interfaces_demo__rosidl_typesupport_introspection_cpp
+[1.815s] [ 76%] Built target base_interfaces_demo__rosidl_typesupport_fastrtps_c
+[1.826s] [ 76%] Built target base_interfaces_demo__rosidl_typesupport_fastrtps_cpp
+[1.837s] [ 76%] Built target base_interfaces_demo
+[1.847s] [ 78%] [34m[1mGenerating Python code for ROS interfaces[0m
+[2.251s] [ 78%] Built target base_interfaces_demo__py
+[2.263s] [ 80%] [32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_generator_py.dir/rosidl_generator_py/base_interfaces_demo/msg/_student_s.c.o[0m
+[2.263s] [ 82%] [32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_generator_py.dir/rosidl_generator_py/base_interfaces_demo/action/_progress_s.c.o[0m
+[2.263s] [ 85%] [32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_generator_py.dir/rosidl_generator_py/base_interfaces_demo/srv/_add_ints_s.c.o[0m
+[2.338s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/base_interfaces_demo/libbase_interfaces_demo__rosidl_generator_py.so[0m
+[2.363s] [ 87%] Built target base_interfaces_demo__rosidl_generator_py
+[2.373s] [ 89%] [32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/base_interfaces_demo/_base_interfaces_demo_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[2.373s] [ 91%] [32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/base_interfaces_demo/_base_interfaces_demo_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[2.374s] [ 93%] [32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/base_interfaces_demo/_base_interfaces_demo_s.ep.rosidl_typesupport_c.c.o[0m
+[2.442s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/base_interfaces_demo/base_interfaces_demo_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.442s] [100%] [32m[1mLinking C shared library rosidl_generator_py/base_interfaces_demo/base_interfaces_demo_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.442s] [100%] [32m[1mLinking C shared library rosidl_generator_py/base_interfaces_demo/base_interfaces_demo_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.465s] [100%] Built target base_interfaces_demo__rosidl_typesupport_introspection_c__pyext
+[2.465s] [100%] Built target base_interfaces_demo__rosidl_typesupport_c__pyext
+[2.465s] [100%] Built target base_interfaces_demo__rosidl_typesupport_fastrtps_c__pyext
+[2.473s] Invoked command in '/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/build/base_interfaces_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws01_hello/install/pkg02_hello_py:/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_piumbing/install/py02_service:/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_piumbing/install/py01_topic:/opt/ros/humble:/home/zhangjinrui/ROS2/dev_ws_foxy/install/learning_urdf:/home/zhangjinrui/ROS2/dev_ws_foxy/install/learning_topic:/home/zhangjinrui/ROS2/dev_ws_foxy/install/learning_tf:/home/zhangjinrui/ROS2/dev_ws_foxy/install/learning_service:/home/zhangjinrui/ROS2/dev_ws_foxy/install/learning_qos:/home/zhangjinrui/ROS2/dev_ws_foxy/install/learning_pkg_python:/home/zhangjinrui/ROS2/dev_ws_foxy/install/learning_parameter:/home/zhangjinrui/ROS2/dev_ws_foxy/install/learning_node:/home/zhangjinrui/ROS2/dev_ws_foxy/install/learning_launch:/home/zhangjinrui/ROS2/dev_ws_foxy/install/learning_action:/home/zhangjinrui/ROS2/dev_ws_foxy/install/learning_gazebo_harmonic:/home/zhangjinrui/ROS2/dev_ws_foxy/install/learning_gazebo:/home/zhangjinrui/ROS2/dev_ws_foxy/install/learning_cv /usr/bin/cmake --build /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/build/base_interfaces_demo -- -j24 -l24
+[2.474s] Invoking command in '/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/build/base_interfaces_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws01_hello/install/pkg02_hello_py:/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_piumbing/install/py02_service:/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_piumbing/install/py01_topic:/opt/ros/humble:/home/zhangjinrui/ROS2/dev_ws_foxy/install/learning_urdf:/home/zhangjinrui/ROS2/dev_ws_foxy/install/learning_topic:/home/zhangjinrui/ROS2/dev_ws_foxy/install/learning_tf:/home/zhangjinrui/ROS2/dev_ws_foxy/install/learning_service:/home/zhangjinrui/ROS2/dev_ws_foxy/install/learning_qos:/home/zhangjinrui/ROS2/dev_ws_foxy/install/learning_pkg_python:/home/zhangjinrui/ROS2/dev_ws_foxy/install/learning_parameter:/home/zhangjinrui/ROS2/dev_ws_foxy/install/learning_node:/home/zhangjinrui/ROS2/dev_ws_foxy/install/learning_launch:/home/zhangjinrui/ROS2/dev_ws_foxy/install/learning_action:/home/zhangjinrui/ROS2/dev_ws_foxy/install/learning_gazebo_harmonic:/home/zhangjinrui/ROS2/dev_ws_foxy/install/learning_gazebo:/home/zhangjinrui/ROS2/dev_ws_foxy/install/learning_cv /usr/bin/cmake --install /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/build/base_interfaces_demo
+[2.479s] -- Install configuration: ""
+[2.479s] -- Installing: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/share/ament_index/resource_index/rosidl_interfaces/base_interfaces_demo
+[2.479s] -- Installing: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo
+[2.479s] -- Installing: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv
+[2.479s] -- Installing: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/add_ints.h
+[2.479s] -- Installing: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail
+[2.479s] -- Installing: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/add_ints__struct.h
+[2.479s] -- Installing: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/add_ints__functions.c
+[2.479s] -- Installing: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/add_ints__type_support.h
+[2.479s] -- Installing: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/add_ints__functions.h
+[2.479s] -- Installing: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg
+[2.479s] -- Installing: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/student.h
+[2.480s] -- Installing: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail
+[2.480s] -- Installing: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__struct.h
+[2.480s] -- Installing: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__type_support.h
+[2.480s] -- Installing: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__functions.c
+[2.480s] -- Installing: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__functions.h
+[2.480s] -- Installing: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/rosidl_generator_c__visibility_control.h
+[2.480s] -- Installing: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action
+[2.480s] -- Installing: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action/progress.h
+[2.480s] -- Installing: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action/detail
+[2.480s] -- Installing: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action/detail/progress__functions.c
+[2.480s] -- Installing: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action/detail/progress__functions.h
+[2.480s] -- Installing: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action/detail/progress__type_support.h
+[2.480s] -- Installing: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action/detail/progress__struct.h
+[2.481s] -- Installing: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/environment/library_path.sh
+[2.481s] -- Installing: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/environment/library_path.dsv
+[2.481s] -- Installing: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_generator_c.so
+[2.481s] -- Set runtime path of "/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_generator_c.so" to ""
+[2.481s] -- Up-to-date: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo
+[2.481s] -- Up-to-date: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv
+[2.481s] -- Up-to-date: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail
+[2.481s] -- Installing: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/add_ints__rosidl_typesupport_fastrtps_c.h
+[2.481s] -- Up-to-date: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg
+[2.481s] -- Installing: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.481s] -- Up-to-date: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail
+[2.481s] -- Installing: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__rosidl_typesupport_fastrtps_c.h
+[2.481s] -- Up-to-date: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action
+[2.481s] -- Up-to-date: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action/detail
+[2.481s] -- Installing: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action/detail/progress__rosidl_typesupport_fastrtps_c.h
+[2.482s] -- Installing: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_fastrtps_c.so
+[2.482s] -- Set runtime path of "/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_fastrtps_c.so" to ""
+[2.482s] -- Up-to-date: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo
+[2.482s] -- Up-to-date: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv
+[2.482s] -- Up-to-date: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail
+[2.482s] -- Installing: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/add_ints__type_support.c
+[2.482s] -- Installing: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/add_ints__rosidl_typesupport_introspection_c.h
+[2.482s] -- Up-to-date: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg
+[2.482s] -- Installing: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.482s] -- Up-to-date: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail
+[2.482s] -- Installing: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__type_support.c
+[2.482s] -- Installing: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__rosidl_typesupport_introspection_c.h
+[2.482s] -- Up-to-date: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action
+[2.482s] -- Up-to-date: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action/detail
+[2.482s] -- Installing: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action/detail/progress__rosidl_typesupport_introspection_c.h
+[2.482s] -- Installing: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action/detail/progress__type_support.c
+[2.483s] -- Installing: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_introspection_c.so
+[2.483s] -- Set runtime path of "/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_introspection_c.so" to ""
+[2.483s] -- Installing: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_c.so
+[2.483s] -- Set runtime path of "/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_c.so" to ""
+[2.483s] -- Up-to-date: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo
+[2.483s] -- Up-to-date: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv
+[2.483s] -- Installing: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/add_ints.hpp
+[2.483s] -- Up-to-date: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail
+[2.483s] -- Installing: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/add_ints__traits.hpp
+[2.483s] -- Installing: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/add_ints__type_support.hpp
+[2.483s] -- Installing: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/add_ints__struct.hpp
+[2.484s] -- Installing: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/add_ints__builder.hpp
+[2.484s] -- Up-to-date: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg
+[2.484s] -- Installing: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/student.hpp
+[2.484s] -- Installing: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/rosidl_generator_cpp__visibility_control.hpp
+[2.484s] -- Up-to-date: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail
+[2.484s] -- Installing: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__builder.hpp
+[2.484s] -- Installing: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__type_support.hpp
+[2.484s] -- Installing: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__struct.hpp
+[2.484s] -- Installing: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__traits.hpp
+[2.484s] -- Up-to-date: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action
+[2.484s] -- Installing: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action/progress.hpp
+[2.484s] -- Up-to-date: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action/detail
+[2.484s] -- Installing: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action/detail/progress__builder.hpp
+[2.484s] -- Installing: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action/detail/progress__struct.hpp
+[2.484s] -- Installing: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action/detail/progress__type_support.hpp
+[2.485s] -- Installing: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action/detail/progress__traits.hpp
+[2.485s] -- Up-to-date: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo
+[2.485s] -- Up-to-date: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv
+[2.485s] -- Up-to-date: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail
+[2.485s] -- Installing: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/add_ints__rosidl_typesupport_fastrtps_cpp.hpp
+[2.485s] -- Installing: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/dds_fastrtps
+[2.485s] -- Up-to-date: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg
+[2.485s] -- Installing: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.485s] -- Up-to-date: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail
+[2.485s] -- Installing: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__rosidl_typesupport_fastrtps_cpp.hpp
+[2.485s] -- Installing: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/dds_fastrtps
+[2.485s] -- Up-to-date: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action
+[2.485s] -- Up-to-date: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action/detail
+[2.485s] -- Installing: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action/detail/progress__rosidl_typesupport_fastrtps_cpp.hpp
+[2.485s] -- Installing: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action/detail/dds_fastrtps
+[2.485s] -- Installing: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_fastrtps_cpp.so
+[2.486s] -- Set runtime path of "/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_fastrtps_cpp.so" to ""
+[2.486s] -- Up-to-date: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo
+[2.486s] -- Up-to-date: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv
+[2.486s] -- Up-to-date: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail
+[2.486s] -- Installing: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/add_ints__type_support.cpp
+[2.486s] -- Installing: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/add_ints__rosidl_typesupport_introspection_cpp.hpp
+[2.486s] -- Up-to-date: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg
+[2.486s] -- Up-to-date: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail
+[2.486s] -- Installing: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__type_support.cpp
+[2.486s] -- Installing: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__rosidl_typesupport_introspection_cpp.hpp
+[2.486s] -- Up-to-date: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action
+[2.486s] -- Up-to-date: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action/detail
+[2.486s] -- Installing: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action/detail/progress__type_support.cpp
+[2.486s] -- Installing: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action/detail/progress__rosidl_typesupport_introspection_cpp.hpp
+[2.486s] -- Installing: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_introspection_cpp.so
+[2.487s] -- Set runtime path of "/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_introspection_cpp.so" to ""
+[2.487s] -- Installing: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_cpp.so
+[2.487s] -- Set runtime path of "/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_cpp.so" to ""
+[2.487s] -- Installing: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/environment/pythonpath.sh
+[2.487s] -- Installing: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/environment/pythonpath.dsv
+[2.487s] -- Installing: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo-0.0.0-py3.10.egg-info
+[2.487s] -- Installing: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo-0.0.0-py3.10.egg-info/top_level.txt
+[2.487s] -- Installing: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo-0.0.0-py3.10.egg-info/SOURCES.txt
+[2.487s] -- Installing: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo-0.0.0-py3.10.egg-info/PKG-INFO
+[2.487s] -- Installing: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo-0.0.0-py3.10.egg-info/dependency_links.txt
+[2.487s] -- Installing: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo
+[2.487s] -- Installing: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/base_interfaces_demo_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.488s] -- Installing: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/srv
+[2.488s] -- Installing: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/srv/_add_ints.py
+[2.488s] -- Installing: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/srv/_add_ints_s.c
+[2.488s] -- Installing: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/srv/__init__.py
+[2.488s] -- Installing: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/msg
+[2.488s] -- Installing: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/msg/_student.py
+[2.488s] -- Installing: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/msg/__init__.py
+[2.488s] -- Installing: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/msg/_student_s.c
+[2.488s] -- Installing: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/base_interfaces_demo_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.488s] -- Installing: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/action
+[2.488s] -- Installing: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/action/_progress.py
+[2.488s] -- Installing: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/action/_progress_s.c
+[2.489s] -- Installing: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/action/__init__.py
+[2.489s] -- Installing: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/_base_interfaces_demo_s.ep.rosidl_typesupport_introspection_c.c
+[2.489s] -- Installing: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/__init__.py
+[2.489s] -- Installing: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/_base_interfaces_demo_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.489s] -- Installing: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/libbase_interfaces_demo__rosidl_generator_py.so
+[2.489s] -- Installing: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/_base_interfaces_demo_s.ep.rosidl_typesupport_c.c
+[2.489s] -- Installing: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/base_interfaces_demo_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.515s] Listing '/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo'...
+[2.515s] Compiling '/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/__init__.py'...
+[2.515s] Listing '/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/action'...
+[2.515s] Compiling '/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/action/__init__.py'...
+[2.515s] Compiling '/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/action/_progress.py'...
+[2.515s] Listing '/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/msg'...
+[2.515s] Compiling '/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/msg/__init__.py'...
+[2.515s] Compiling '/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/msg/_student.py'...
+[2.515s] Listing '/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/srv'...
+[2.515s] Compiling '/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/srv/__init__.py'...
+[2.515s] Compiling '/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/srv/_add_ints.py'...
+[2.518s] -- Installing: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/base_interfaces_demo_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.519s] -- Set runtime path of "/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/base_interfaces_demo_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.519s] -- Installing: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/base_interfaces_demo_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.519s] -- Set runtime path of "/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/base_interfaces_demo_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.519s] -- Installing: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/base_interfaces_demo_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.519s] -- Set runtime path of "/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/base_interfaces_demo_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.519s] -- Installing: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_generator_py.so
+[2.519s] -- Set runtime path of "/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_generator_py.so" to ""
+[2.520s] -- Installing: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/msg/Student.idl
+[2.520s] -- Installing: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/srv/AddInts.idl
+[2.520s] -- Installing: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/action/Progress.idl
+[2.520s] -- Installing: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/msg/Student.msg
+[2.520s] -- Installing: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/srv/AddInts.srv
+[2.520s] -- Installing: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/srv/AddInts_Request.msg
+[2.520s] -- Installing: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/srv/AddInts_Response.msg
+[2.520s] -- Installing: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/action/Progress.action
+[2.520s] -- Installing: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/share/ament_index/resource_index/package_run_dependencies/base_interfaces_demo
+[2.520s] -- Installing: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/share/ament_index/resource_index/parent_prefix_path/base_interfaces_demo
+[2.521s] -- Installing: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/environment/ament_prefix_path.sh
+[2.521s] -- Installing: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/environment/ament_prefix_path.dsv
+[2.521s] -- Installing: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/environment/path.sh
+[2.521s] -- Installing: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/environment/path.dsv
+[2.521s] -- Installing: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/local_setup.bash
+[2.521s] -- Installing: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/local_setup.sh
+[2.521s] -- Installing: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/local_setup.zsh
+[2.521s] -- Installing: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/local_setup.dsv
+[2.521s] -- Installing: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/package.dsv
+[2.521s] -- Installing: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/share/ament_index/resource_index/packages/base_interfaces_demo
+[2.521s] -- Installing: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/export_base_interfaces_demo__rosidl_generator_cExport.cmake
+[2.521s] -- Installing: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/export_base_interfaces_demo__rosidl_generator_cExport-noconfig.cmake
+[2.522s] -- Installing: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/export_base_interfaces_demo__rosidl_typesupport_fastrtps_cExport.cmake
+[2.522s] -- Installing: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/export_base_interfaces_demo__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[2.522s] -- Installing: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demo__rosidl_typesupport_introspection_cExport.cmake
+[2.522s] -- Installing: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demo__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.522s] -- Installing: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demo__rosidl_typesupport_cExport.cmake
+[2.522s] -- Installing: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demo__rosidl_typesupport_cExport-noconfig.cmake
+[2.522s] -- Installing: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/export_base_interfaces_demo__rosidl_generator_cppExport.cmake
+[2.522s] -- Installing: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/export_base_interfaces_demo__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.522s] -- Installing: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/export_base_interfaces_demo__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[2.522s] -- Installing: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demo__rosidl_typesupport_introspection_cppExport.cmake
+[2.522s] -- Installing: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demo__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.523s] -- Installing: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demo__rosidl_typesupport_cppExport.cmake
+[2.523s] -- Installing: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demo__rosidl_typesupport_cppExport-noconfig.cmake
+[2.523s] -- Installing: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/export_base_interfaces_demo__rosidl_generator_pyExport.cmake
+[2.523s] -- Installing: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/export_base_interfaces_demo__rosidl_generator_pyExport-noconfig.cmake
+[2.523s] -- Installing: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/rosidl_cmake-extras.cmake
+[2.523s] -- Installing: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.523s] -- Installing: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.523s] -- Installing: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/ament_cmake_export_libraries-extras.cmake
+[2.523s] -- Installing: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/ament_cmake_export_targets-extras.cmake
+[2.523s] -- Installing: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.523s] -- Installing: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.523s] -- Installing: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demoConfig.cmake
+[2.524s] -- Installing: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demoConfig-version.cmake
+[2.524s] -- Installing: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/package.xml
+[2.526s] Invoked command in '/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/build/base_interfaces_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws01_hello/install/pkg02_hello_py:/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_piumbing/install/py02_service:/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_piumbing/install/py01_topic:/opt/ros/humble:/home/zhangjinrui/ROS2/dev_ws_foxy/install/learning_urdf:/home/zhangjinrui/ROS2/dev_ws_foxy/install/learning_topic:/home/zhangjinrui/ROS2/dev_ws_foxy/install/learning_tf:/home/zhangjinrui/ROS2/dev_ws_foxy/install/learning_service:/home/zhangjinrui/ROS2/dev_ws_foxy/install/learning_qos:/home/zhangjinrui/ROS2/dev_ws_foxy/install/learning_pkg_python:/home/zhangjinrui/ROS2/dev_ws_foxy/install/learning_parameter:/home/zhangjinrui/ROS2/dev_ws_foxy/install/learning_node:/home/zhangjinrui/ROS2/dev_ws_foxy/install/learning_launch:/home/zhangjinrui/ROS2/dev_ws_foxy/install/learning_action:/home/zhangjinrui/ROS2/dev_ws_foxy/install/learning_gazebo_harmonic:/home/zhangjinrui/ROS2/dev_ws_foxy/install/learning_gazebo:/home/zhangjinrui/ROS2/dev_ws_foxy/install/learning_cv /usr/bin/cmake --install /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/build/base_interfaces_demo

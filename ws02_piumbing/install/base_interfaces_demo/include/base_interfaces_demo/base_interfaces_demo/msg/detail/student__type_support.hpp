@@ -1,1 +1,0 @@
-/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_piumbing/build/base_interfaces_demo/rosidl_generator_cpp/base_interfaces_demo/msg/detail/student__type_support.hpp

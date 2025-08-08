@@ -1,1 +1,0 @@
-/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_piumbing/build/base_interfaces_demo/rosidl_generator_py/base_interfaces_demo/srv/_add_ints_s.c

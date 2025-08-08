@@ -1,1 +1,0 @@
-/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_piumbing/build/base_interfaces_demo/rosidl_typesupport_fastrtps_c/base_interfaces_demo/msg/rosidl_typesupport_fastrtps_c__visibility_control.h

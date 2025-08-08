@@ -62,10 +62,10 @@
         "string_view": "cpp"
     },
     "python.autoComplete.extraPaths": [
-        "/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_piumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages"
+        "/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages"
     ],
     "python.analysis.extraPaths": [
         "/opt/ros/humble/lib/python3.8/site-packages",
-        "/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_piumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages"
+        "/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages"
     ]
 }
