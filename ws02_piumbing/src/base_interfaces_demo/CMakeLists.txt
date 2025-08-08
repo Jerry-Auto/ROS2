@@ -17,6 +17,7 @@ rosidl_generate_interfaces(
   ${PROJECT_NAME}
   "msg/Student.msg"
   "srv/AddInts.srv"
+  "action/Progress.action"
 )
 
 

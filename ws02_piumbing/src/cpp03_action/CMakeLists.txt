@@ -25,6 +25,21 @@ ament_target_dependencies(
 
 install(TARGETS demo01_action_service
   DESTINATION lib/${PROJECT_NAME})
+  
+
+add_executable(demo02_action_client src/demo02_action_client.cpp)
+
+ament_target_dependencies(
+  demo02_action_client
+  "rclcpp"
+  "rclcpp_action"
+  "base_interfaces_demo"
+)
+
+install(TARGETS demo02_action_client
+DESTINATION lib/${PROJECT_NAME}
+)
+
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)

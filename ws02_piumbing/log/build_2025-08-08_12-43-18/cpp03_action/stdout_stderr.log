@@ -1,0 +1,11 @@
+[35m[1mConsolidate compiler generated dependencies of target demo01_action_service[0m
+[35m[1mConsolidate compiler generated dependencies of target demo02_action_client[0m
+[ 75%] Built target demo01_action_service
+[ 75%] [32mBuilding CXX object CMakeFiles/demo02_action_client.dir/src/demo02_action_client.cpp.o[0m
+[01m[K/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_piumbing/src/cpp03_action/src/demo02_action_client.cpp:[m[K In member function ‘[01m[Kvoid ActionClient::handle_sigint()[m[K’:
+[01m[K/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_piumbing/src/cpp03_action/src/demo02_action_client.cpp:106:55:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class rclcpp_action::ClientGoalHandle<base_interfaces_demo::action::Progress>[m[K’ {aka ‘[01m[Kclass rclcpp_action::ClientGoalHandle<base_interfaces_demo::action::Progress>[m[K’} has no member named ‘[01m[Kis_active[m[K’
+  106 |     if (current_goal_handle_ && current_goal_handle_->[01;31m[Kis_active[m[K()) {
+      |                                                       [01;31m[K^~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/demo02_action_client.dir/build.make:76：CMakeFiles/demo02_action_client.dir/src/demo02_action_client.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:165：CMakeFiles/demo02_action_client.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

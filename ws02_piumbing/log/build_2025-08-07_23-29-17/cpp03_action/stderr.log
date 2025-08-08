@@ -1,0 +1,33 @@
+[01m[K/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_piumbing/src/cpp03_action/src/demo02_action_client.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_piumbing/src/cpp03_action/src/demo02_action_client.cpp:122:30:[m[K [01;31m[Kerror: [m[Kcast from ‘[01m[Kchar*[m[K’ to ‘[01m[Kint[m[K’ loses precision [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+  122 |     action_client->send_goal([01;31m[Kint(argv[1])[m[K);
+      |                              [01;31m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_piumbing/src/cpp03_action/src/demo01_action_service.cpp:17[m[K:
+[01m[K/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_piumbing/src/cpp03_action/src/demo01_action_service.cpp:[m[K In member function ‘[01m[Krclcpp_action::GoalResponse Mynode::handle_goal(const GoalUUID&, std::shared_ptr<const base_interfaces_demo::action::Progress_Goal_<std::allocator<void> > >)[m[K’:
+[01m[K/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_piumbing/src/cpp03_action/src/demo01_action_service.cpp:66:37:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%ld[m[K’ expects argument of type ‘[01m[Klong int[m[K’, but argument 5 has type ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+   66 | RCLCPP_INFO(this->get_logger(), [01;35m[K"接收到动作客户端请求，请求数字为 %ld"[m[K, [32m[Kgoal->num[m[K);
+      |                                 [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~~~[m[K
+      |                                                                               [32m[K|[m[K
+      |                                                                               [32m[Kint[m[K
+
+[01m[K/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_piumbing/src/cpp03_action/src/demo01_action_service.cpp:66:73:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   66 |  到动作客户端请求，请求数字为 [01;36m[K%ld[m[K", goal->num);
+      |                               [01;36m[K~~^[m[K
+      |                                 [01;36m[K|[m[K
+      |                                 [01;36m[Klong int[m[K
+      |                               [32m[K%d[m[K
+gmake[2]: *** [CMakeFiles/demo02_action_client.dir/build.make:76：CMakeFiles/demo02_action_client.dir/src/demo02_action_client.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:165：CMakeFiles/demo02_action_client.dir/all] 错误 2
+gmake[1]: *** 正在等待未完成的任务....
+gmake: *** [Makefile:146：all] 错误 2

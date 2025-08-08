@@ -364,6 +364,9 @@ ament_cmake_symlink_install_files("/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws0
 # install(FILES "/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_piumbing/build/base_interfaces_demo/rosidl_adapter/base_interfaces_demo/srv/AddInts.idl" "DESTINATION" "share/base_interfaces_demo/srv")
 ament_cmake_symlink_install_files("/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_piumbing/src/base_interfaces_demo" FILES "/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_piumbing/build/base_interfaces_demo/rosidl_adapter/base_interfaces_demo/srv/AddInts.idl" "DESTINATION" "share/base_interfaces_demo/srv")
 
+# install(FILES "/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_piumbing/build/base_interfaces_demo/rosidl_adapter/base_interfaces_demo/action/Progress.idl" "DESTINATION" "share/base_interfaces_demo/action")
+ament_cmake_symlink_install_files("/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_piumbing/src/base_interfaces_demo" FILES "/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_piumbing/build/base_interfaces_demo/rosidl_adapter/base_interfaces_demo/action/Progress.idl" "DESTINATION" "share/base_interfaces_demo/action")
+
 # install(FILES "/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_piumbing/src/base_interfaces_demo/msg/Student.msg" "DESTINATION" "share/base_interfaces_demo/msg")
 ament_cmake_symlink_install_files("/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_piumbing/src/base_interfaces_demo" FILES "/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_piumbing/src/base_interfaces_demo/msg/Student.msg" "DESTINATION" "share/base_interfaces_demo/msg")
 
@@ -375,6 +378,9 @@ ament_cmake_symlink_install_files("/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws0
 
 # install(FILES "/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_piumbing/build/base_interfaces_demo/rosidl_cmake/srv/AddInts_Response.msg" "DESTINATION" "share/base_interfaces_demo/srv")
 ament_cmake_symlink_install_files("/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_piumbing/src/base_interfaces_demo" FILES "/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_piumbing/build/base_interfaces_demo/rosidl_cmake/srv/AddInts_Response.msg" "DESTINATION" "share/base_interfaces_demo/srv")
+
+# install(FILES "/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_piumbing/src/base_interfaces_demo/action/Progress.action" "DESTINATION" "share/base_interfaces_demo/action")
+ament_cmake_symlink_install_files("/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_piumbing/src/base_interfaces_demo" FILES "/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_piumbing/src/base_interfaces_demo/action/Progress.action" "DESTINATION" "share/base_interfaces_demo/action")
 
 # install(FILES "/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_piumbing/build/base_interfaces_demo/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/base_interfaces_demo" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 ament_cmake_symlink_install_files("/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_piumbing/src/base_interfaces_demo" FILES "/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_piumbing/build/base_interfaces_demo/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/base_interfaces_demo" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
@@ -415,6 +421,9 @@ ament_cmake_symlink_install_files("/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws0
 # install(FILES "/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_piumbing/build/base_interfaces_demo/rosidl_cmake/rosidl_cmake-extras.cmake" "DESTINATION" "share/base_interfaces_demo/cmake")
 ament_cmake_symlink_install_files("/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_piumbing/src/base_interfaces_demo" FILES "/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_piumbing/build/base_interfaces_demo/rosidl_cmake/rosidl_cmake-extras.cmake" "DESTINATION" "share/base_interfaces_demo/cmake")
 
+# install(FILES "/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_piumbing/build/base_interfaces_demo/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/base_interfaces_demo/cmake")
+ament_cmake_symlink_install_files("/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_piumbing/src/base_interfaces_demo" FILES "/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_piumbing/build/base_interfaces_demo/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/base_interfaces_demo/cmake")
+
 # install(FILES "/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_piumbing/build/base_interfaces_demo/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake" "DESTINATION" "share/base_interfaces_demo/cmake")
 ament_cmake_symlink_install_files("/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_piumbing/src/base_interfaces_demo" FILES "/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_piumbing/build/base_interfaces_demo/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake" "DESTINATION" "share/base_interfaces_demo/cmake")
 
@@ -426,9 +435,6 @@ ament_cmake_symlink_install_files("/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws0
 
 # install(FILES "/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_piumbing/build/base_interfaces_demo/rosidl_cmake/rosidl_cmake_export_typesupport_targets-extras.cmake" "DESTINATION" "share/base_interfaces_demo/cmake")
 ament_cmake_symlink_install_files("/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_piumbing/src/base_interfaces_demo" FILES "/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_piumbing/build/base_interfaces_demo/rosidl_cmake/rosidl_cmake_export_typesupport_targets-extras.cmake" "DESTINATION" "share/base_interfaces_demo/cmake")
-
-# install(FILES "/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_piumbing/build/base_interfaces_demo/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/base_interfaces_demo/cmake")
-ament_cmake_symlink_install_files("/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_piumbing/src/base_interfaces_demo" FILES "/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_piumbing/build/base_interfaces_demo/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/base_interfaces_demo/cmake")
 
 # install(FILES "/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_piumbing/build/base_interfaces_demo/rosidl_cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake" "DESTINATION" "share/base_interfaces_demo/cmake")
 ament_cmake_symlink_install_files("/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_piumbing/src/base_interfaces_demo" FILES "/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_piumbing/build/base_interfaces_demo/rosidl_cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake" "DESTINATION" "share/base_interfaces_demo/cmake")
