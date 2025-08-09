@@ -1,0 +1,32 @@
+[0.358s] Invoking command in '/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/src/py04_param': PYTHONPATH=/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/build/py04_param/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/py04_param/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py04_param build --build-base /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/build/py04_param/build install --record /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/build/py04_param/install.log --single-version-externally-managed install_data
+[0.478s] running egg_info
+[0.478s] writing ../../build/py04_param/py04_param.egg-info/PKG-INFO
+[0.478s] writing dependency_links to ../../build/py04_param/py04_param.egg-info/dependency_links.txt
+[0.479s] writing entry points to ../../build/py04_param/py04_param.egg-info/entry_points.txt
+[0.479s] writing requirements to ../../build/py04_param/py04_param.egg-info/requires.txt
+[0.479s] writing top-level names to ../../build/py04_param/py04_param.egg-info/top_level.txt
+[0.479s] reading manifest file '../../build/py04_param/py04_param.egg-info/SOURCES.txt'
+[0.491s] writing manifest file '../../build/py04_param/py04_param.egg-info/SOURCES.txt'
+[0.491s] running build
+[0.491s] running build_py
+[0.491s] copying py04_param/demo01_param_service.py -> /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/build/py04_param/build/lib/py04_param
+[0.491s] copying py04_param/demo02_param_client.py -> /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/build/py04_param/build/lib/py04_param
+[0.491s] copying py04_param/demo00_param.py -> /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/build/py04_param/build/lib/py04_param
+[0.491s] running install
+[0.491s] running install_lib
+[0.492s] copying /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/build/py04_param/build/lib/py04_param/demo01_param_service.py -> /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/py04_param/lib/python3.10/site-packages/py04_param
+[0.492s] copying /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/build/py04_param/build/lib/py04_param/demo02_param_client.py -> /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/py04_param/lib/python3.10/site-packages/py04_param
+[0.492s] copying /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/build/py04_param/build/lib/py04_param/demo00_param.py -> /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/py04_param/lib/python3.10/site-packages/py04_param
+[0.492s] byte-compiling /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/py04_param/lib/python3.10/site-packages/py04_param/demo01_param_service.py to demo01_param_service.cpython-310.pyc
+[0.493s] byte-compiling /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/py04_param/lib/python3.10/site-packages/py04_param/demo02_param_client.py to demo02_param_client.cpython-310.pyc
+[0.493s] byte-compiling /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/py04_param/lib/python3.10/site-packages/py04_param/demo00_param.py to demo00_param.cpython-310.pyc
+[0.493s] running install_data
+[0.493s] running install_egg_info
+[0.494s] removing '/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/py04_param/lib/python3.10/site-packages/py04_param-0.0.0-py3.10.egg-info' (and everything under it)
+[0.495s] Copying ../../build/py04_param/py04_param.egg-info to /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/py04_param/lib/python3.10/site-packages/py04_param-0.0.0-py3.10.egg-info
+[0.495s] running install_scripts
+[0.505s] Installing demo00_param script to /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/py04_param/lib/py04_param
+[0.505s] Installing demo01_param_service script to /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/py04_param/lib/py04_param
+[0.505s] Installing demo02_param_client script to /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/py04_param/lib/py04_param
+[0.505s] writing list of installed files to '/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/build/py04_param/install.log'
+[0.517s] Invoked command in '/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/src/py04_param' returned '0': PYTHONPATH=/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/build/py04_param/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/py04_param/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py04_param build --build-base /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/build/py04_param/build install --record /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/build/py04_param/install.log --single-version-externally-managed install_data

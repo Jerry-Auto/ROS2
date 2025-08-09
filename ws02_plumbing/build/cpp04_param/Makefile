@@ -210,6 +210,32 @@ demo00_param/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo00_param.dir/build.make CMakeFiles/demo00_param.dir/build
 .PHONY : demo00_param/fast
 
+#=============================================================================
+# Target rules for targets named demo01_param_service
+
+# Build rule for target.
+demo01_param_service: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 demo01_param_service
+.PHONY : demo01_param_service
+
+# fast build rule for target.
+demo01_param_service/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo01_param_service.dir/build.make CMakeFiles/demo01_param_service.dir/build
+.PHONY : demo01_param_service/fast
+
+#=============================================================================
+# Target rules for targets named demo02_param_client
+
+# Build rule for target.
+demo02_param_client: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 demo02_param_client
+.PHONY : demo02_param_client
+
+# fast build rule for target.
+demo02_param_client/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo02_param_client.dir/build.make CMakeFiles/demo02_param_client.dir/build
+.PHONY : demo02_param_client/fast
+
 src/demo00_param.o: src/demo00_param.cpp.o
 .PHONY : src/demo00_param.o
 
@@ -234,6 +260,54 @@ src/demo00_param.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo00_param.dir/build.make CMakeFiles/demo00_param.dir/src/demo00_param.cpp.s
 .PHONY : src/demo00_param.cpp.s
 
+src/demo01_param_service.o: src/demo01_param_service.cpp.o
+.PHONY : src/demo01_param_service.o
+
+# target to build an object file
+src/demo01_param_service.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo01_param_service.dir/build.make CMakeFiles/demo01_param_service.dir/src/demo01_param_service.cpp.o
+.PHONY : src/demo01_param_service.cpp.o
+
+src/demo01_param_service.i: src/demo01_param_service.cpp.i
+.PHONY : src/demo01_param_service.i
+
+# target to preprocess a source file
+src/demo01_param_service.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo01_param_service.dir/build.make CMakeFiles/demo01_param_service.dir/src/demo01_param_service.cpp.i
+.PHONY : src/demo01_param_service.cpp.i
+
+src/demo01_param_service.s: src/demo01_param_service.cpp.s
+.PHONY : src/demo01_param_service.s
+
+# target to generate assembly for a file
+src/demo01_param_service.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo01_param_service.dir/build.make CMakeFiles/demo01_param_service.dir/src/demo01_param_service.cpp.s
+.PHONY : src/demo01_param_service.cpp.s
+
+src/demo02_param_client.o: src/demo02_param_client.cpp.o
+.PHONY : src/demo02_param_client.o
+
+# target to build an object file
+src/demo02_param_client.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo02_param_client.dir/build.make CMakeFiles/demo02_param_client.dir/src/demo02_param_client.cpp.o
+.PHONY : src/demo02_param_client.cpp.o
+
+src/demo02_param_client.i: src/demo02_param_client.cpp.i
+.PHONY : src/demo02_param_client.i
+
+# target to preprocess a source file
+src/demo02_param_client.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo02_param_client.dir/build.make CMakeFiles/demo02_param_client.dir/src/demo02_param_client.cpp.i
+.PHONY : src/demo02_param_client.cpp.i
+
+src/demo02_param_client.s: src/demo02_param_client.cpp.s
+.PHONY : src/demo02_param_client.s
+
+# target to generate assembly for a file
+src/demo02_param_client.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo02_param_client.dir/build.make CMakeFiles/demo02_param_client.dir/src/demo02_param_client.cpp.s
+.PHONY : src/demo02_param_client.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -250,9 +324,17 @@ help:
 	@echo "... cpp04_param_uninstall"
 	@echo "... uninstall"
 	@echo "... demo00_param"
+	@echo "... demo01_param_service"
+	@echo "... demo02_param_client"
 	@echo "... src/demo00_param.o"
 	@echo "... src/demo00_param.i"
 	@echo "... src/demo00_param.s"
+	@echo "... src/demo01_param_service.o"
+	@echo "... src/demo01_param_service.i"
+	@echo "... src/demo01_param_service.s"
+	@echo "... src/demo02_param_client.o"
+	@echo "... src/demo02_param_client.i"
+	@echo "... src/demo02_param_client.s"
 .PHONY : help
 
 

@@ -36,13 +36,13 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 22,
+				"line" : 32,
 				"parent" : 0
 			},
 			{
 				"command" : 5,
 				"file" : 0,
-				"line" : 37,
+				"line" : 50,
 				"parent" : 0
 			},
 			{
@@ -233,6 +233,30 @@
 			],
 			"targetId" : "demo00_param::@6890427a1f51a3e7e1df",
 			"targetIndex" : 1,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib/cpp04_param",
+			"paths" : 
+			[
+				"demo01_param_service"
+			],
+			"targetId" : "demo01_param_service::@6890427a1f51a3e7e1df",
+			"targetIndex" : 2,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib/cpp04_param",
+			"paths" : 
+			[
+				"demo02_param_client"
+			],
+			"targetId" : "demo02_param_client::@6890427a1f51a3e7e1df",
+			"targetIndex" : 3,
 			"type" : "target"
 		},
 		{

@@ -10,6 +10,9 @@ setup.py
 ../../build/py04_param/py04_param.egg-info/zip-safe
 py04_param/__init__.py
 py04_param/demo00_param.py
+py04_param/demo01_param_service.py
+py04_param/demo02_param_client.py
+py04_param/test.py
 resource/py04_param
 test/test_copyright.py
 test/test_flake8.py

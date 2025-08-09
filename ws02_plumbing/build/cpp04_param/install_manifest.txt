@@ -1,4 +1,6 @@
 /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/cpp04_param/lib/cpp04_param/demo00_param
+/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/cpp04_param/lib/cpp04_param/demo01_param_service
+/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/cpp04_param/lib/cpp04_param/demo02_param_client
 /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/cpp04_param/share/ament_index/resource_index/package_run_dependencies/cpp04_param
 /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/cpp04_param/share/ament_index/resource_index/parent_prefix_path/cpp04_param
 /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/cpp04_param/share/cpp04_param/environment/ament_prefix_path.sh
