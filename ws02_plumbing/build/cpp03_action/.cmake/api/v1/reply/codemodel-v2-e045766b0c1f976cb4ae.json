@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-c8e842473d7fe98ab064.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "cpp03_action",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "cpp03_action_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cpp03_action_uninstall-af11929cc7f2ae880202.json",
+					"name" : "cpp03_action_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "demo01_action_service::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-demo01_action_service-29a61d6f630c01e223db.json",
+					"name" : "demo01_action_service",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "demo02_action_client::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-demo02_action_client-d29eadc867be70ec7ca5.json",
+					"name" : "demo02_action_client",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-a02f720d9a82c1c6d746.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/build/cpp03_action",
+		"source" : "/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/src/cpp03_action"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

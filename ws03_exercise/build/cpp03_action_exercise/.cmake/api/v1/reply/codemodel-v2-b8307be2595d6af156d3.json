@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-ab18a8a5af4c91a5feb9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "cpp03_action_exercise",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "cpp03_action_exercise_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cpp03_action_exercise_uninstall-51e91fadb91ee1020725.json",
+					"name" : "cpp03_action_exercise_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "exer04_action_server::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-exer04_action_server-0d8653569b6182dea4b8.json",
+					"name" : "exer04_action_server",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "exer05_action_client::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-exer05_action_client-e142208108bb60021d22.json",
+					"name" : "exer05_action_client",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-6c98803d6443a6f58550.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws03_exercise/build/cpp03_action_exercise",
+		"source" : "/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws03_exercise/src/cpp03_action_exercise"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

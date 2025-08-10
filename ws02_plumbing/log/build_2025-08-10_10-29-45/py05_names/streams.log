@@ -1,0 +1,21 @@
+[0.756s] Invoking command in '/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/src/py05_names': PYTHONPATH=/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/build/py05_names/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/py05_names/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py05_names build --build-base /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/build/py05_names/build install --record /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/build/py05_names/install.log --single-version-externally-managed install_data
+[0.873s] running egg_info
+[0.874s] writing ../../build/py05_names/py05_names.egg-info/PKG-INFO
+[0.874s] writing dependency_links to ../../build/py05_names/py05_names.egg-info/dependency_links.txt
+[0.874s] writing entry points to ../../build/py05_names/py05_names.egg-info/entry_points.txt
+[0.874s] writing requirements to ../../build/py05_names/py05_names.egg-info/requires.txt
+[0.874s] writing top-level names to ../../build/py05_names/py05_names.egg-info/top_level.txt
+[0.875s] reading manifest file '../../build/py05_names/py05_names.egg-info/SOURCES.txt'
+[0.875s] writing manifest file '../../build/py05_names/py05_names.egg-info/SOURCES.txt'
+[0.875s] running build
+[0.875s] running build_py
+[0.875s] running install
+[0.876s] running install_lib
+[0.876s] running install_data
+[0.876s] running install_egg_info
+[0.877s] removing '/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/py05_names/lib/python3.10/site-packages/py05_names-0.1.0-py3.10.egg-info' (and everything under it)
+[0.877s] Copying ../../build/py05_names/py05_names.egg-info to /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/py05_names/lib/python3.10/site-packages/py05_names-0.1.0-py3.10.egg-info
+[0.878s] running install_scripts
+[0.888s] Installing demo01_names_py script to /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/py05_names/lib/py05_names
+[0.888s] writing list of installed files to '/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/build/py05_names/install.log'
+[0.905s] Invoked command in '/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/src/py05_names' returned '0': PYTHONPATH=/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/build/py05_names/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/py05_names/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py05_names build --build-base /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/build/py05_names/build install --record /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/build/py05_names/install.log --single-version-externally-managed install_data

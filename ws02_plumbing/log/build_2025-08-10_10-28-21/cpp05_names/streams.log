@@ -1,0 +1,53 @@
+[0.134s] Invoking command in '/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/build/cpp05_names': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws01_hello/install/pkg02_hello_py:/home/zhangjinrui/ROS2/dev_ws_humble/install/learning_urdf:/home/zhangjinrui/ROS2/dev_ws_humble/install/learning_topic:/home/zhangjinrui/ROS2/dev_ws_humble/install/learning_tf:/home/zhangjinrui/ROS2/dev_ws_humble/install/learning_service:/home/zhangjinrui/ROS2/dev_ws_humble/install/learning_qos:/home/zhangjinrui/ROS2/dev_ws_humble/install/learning_pkg_python:/home/zhangjinrui/ROS2/dev_ws_humble/install/learning_parameter:/home/zhangjinrui/ROS2/dev_ws_humble/install/learning_node:/home/zhangjinrui/ROS2/dev_ws_humble/install/learning_launch:/home/zhangjinrui/ROS2/dev_ws_humble/install/learning_action:/home/zhangjinrui/ROS2/dev_ws_humble/install/learning_gazebo_harmonic:/home/zhangjinrui/ROS2/dev_ws_humble/install/learning_gazebo:/home/zhangjinrui/ROS2/dev_ws_humble/install/learning_cv:/opt/ros/humble /usr/local/bin/cmake /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/src/cpp05_names -DCMAKE_INSTALL_PREFIX=/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/cpp05_names
+[0.160s] -- The C compiler identification is GNU 11.4.0
+[0.192s] -- The CXX compiler identification is GNU 11.4.0
+[0.197s] -- Detecting C compiler ABI info
+[0.232s] -- Detecting C compiler ABI info - done
+[0.236s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.236s] -- Detecting C compile features
+[0.237s] -- Detecting C compile features - done
+[0.238s] -- Detecting CXX compiler ABI info
+[0.279s] -- Detecting CXX compiler ABI info - done
+[0.282s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.283s] -- Detecting CXX compile features
+[0.283s] -- Detecting CXX compile features - done
+[0.285s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.491s] -- Found Python3: /home/zhangjinrui/AppDisk/anaconda3/bin/python3 (found version "3.13.5") found components: Interpreter 
+[0.567s] -- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+[0.605s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.609s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.616s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.625s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.636s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.671s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.673s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.732s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.753s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.787s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.795s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.837s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.837s] -- Found Threads: TRUE  
+[0.871s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.944s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.944s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/src/cpp05_names/include>
+[0.944s] -- Configured cppcheck exclude dirs and/or files: 
+[0.945s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.945s] -- Added test 'lint_cmake' to check CMake code style
+[0.946s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.947s] -- Added test 'uncrustify' to check C / C++ code style
+[0.947s] -- Configured uncrustify additional arguments: 
+[0.947s] -- Added test 'xmllint' to check XML markup files
+[0.948s] -- Configuring done
+[0.954s] -- Generating done
+[0.956s] -- Build files have been written to: /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/build/cpp05_names
+[0.964s] Invoked command in '/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/build/cpp05_names' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws01_hello/install/pkg02_hello_py:/home/zhangjinrui/ROS2/dev_ws_humble/install/learning_urdf:/home/zhangjinrui/ROS2/dev_ws_humble/install/learning_topic:/home/zhangjinrui/ROS2/dev_ws_humble/install/learning_tf:/home/zhangjinrui/ROS2/dev_ws_humble/install/learning_service:/home/zhangjinrui/ROS2/dev_ws_humble/install/learning_qos:/home/zhangjinrui/ROS2/dev_ws_humble/install/learning_pkg_python:/home/zhangjinrui/ROS2/dev_ws_humble/install/learning_parameter:/home/zhangjinrui/ROS2/dev_ws_humble/install/learning_node:/home/zhangjinrui/ROS2/dev_ws_humble/install/learning_launch:/home/zhangjinrui/ROS2/dev_ws_humble/install/learning_action:/home/zhangjinrui/ROS2/dev_ws_humble/install/learning_gazebo_harmonic:/home/zhangjinrui/ROS2/dev_ws_humble/install/learning_gazebo:/home/zhangjinrui/ROS2/dev_ws_humble/install/learning_cv:/opt/ros/humble /usr/local/bin/cmake /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/src/cpp05_names -DCMAKE_INSTALL_PREFIX=/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/cpp05_names
+[0.965s] Invoking command in '/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/build/cpp05_names': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws01_hello/install/pkg02_hello_py:/home/zhangjinrui/ROS2/dev_ws_humble/install/learning_urdf:/home/zhangjinrui/ROS2/dev_ws_humble/install/learning_topic:/home/zhangjinrui/ROS2/dev_ws_humble/install/learning_tf:/home/zhangjinrui/ROS2/dev_ws_humble/install/learning_service:/home/zhangjinrui/ROS2/dev_ws_humble/install/learning_qos:/home/zhangjinrui/ROS2/dev_ws_humble/install/learning_pkg_python:/home/zhangjinrui/ROS2/dev_ws_humble/install/learning_parameter:/home/zhangjinrui/ROS2/dev_ws_humble/install/learning_node:/home/zhangjinrui/ROS2/dev_ws_humble/install/learning_launch:/home/zhangjinrui/ROS2/dev_ws_humble/install/learning_action:/home/zhangjinrui/ROS2/dev_ws_humble/install/learning_gazebo_harmonic:/home/zhangjinrui/ROS2/dev_ws_humble/install/learning_gazebo:/home/zhangjinrui/ROS2/dev_ws_humble/install/learning_cv:/opt/ros/humble /usr/local/bin/cmake --build /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/build/cpp05_names -- -j24 -l24
+[0.980s] [ 50%] [32mBuilding CXX object CMakeFiles/demo01_name.dir/src/demo01_name.cpp.o[0m
+[1.108s] [01m[K/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/src/cpp05_names/src/demo01_name.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/msg/string.hpp: 没有那个文件或目录
+[1.108s]     2 | #include [01;31m[K"std_msgs/msg/string.hpp"[m[K
+[1.108s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.108s] compilation terminated.
+[1.116s] gmake[2]: *** [CMakeFiles/demo01_name.dir/build.make:76：CMakeFiles/demo01_name.dir/src/demo01_name.cpp.o] 错误 1
+[1.116s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/demo01_name.dir/all] 错误 2
+[1.116s] gmake: *** [Makefile:146：all] 错误 2
+[1.117s] Invoked command in '/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/build/cpp05_names' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws01_hello/install/pkg02_hello_py:/home/zhangjinrui/ROS2/dev_ws_humble/install/learning_urdf:/home/zhangjinrui/ROS2/dev_ws_humble/install/learning_topic:/home/zhangjinrui/ROS2/dev_ws_humble/install/learning_tf:/home/zhangjinrui/ROS2/dev_ws_humble/install/learning_service:/home/zhangjinrui/ROS2/dev_ws_humble/install/learning_qos:/home/zhangjinrui/ROS2/dev_ws_humble/install/learning_pkg_python:/home/zhangjinrui/ROS2/dev_ws_humble/install/learning_parameter:/home/zhangjinrui/ROS2/dev_ws_humble/install/learning_node:/home/zhangjinrui/ROS2/dev_ws_humble/install/learning_launch:/home/zhangjinrui/ROS2/dev_ws_humble/install/learning_action:/home/zhangjinrui/ROS2/dev_ws_humble/install/learning_gazebo_harmonic:/home/zhangjinrui/ROS2/dev_ws_humble/install/learning_gazebo:/home/zhangjinrui/ROS2/dev_ws_humble/install/learning_cv:/opt/ros/humble /usr/local/bin/cmake --build /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/build/cpp05_names -- -j24 -l24

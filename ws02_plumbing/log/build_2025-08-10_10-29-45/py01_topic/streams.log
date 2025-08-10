@@ -1,0 +1,49 @@
+[0.616s] Invoking command in '/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/src/py01_topic': AMENT_PREFIX_PATH=/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/lib:/usr/lib/x86_64-linux-gnu:/home/zhangjinrui/ROS2/dev_ws_humble/install/learning_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu PYTHONPATH=/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/build/py01_topic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/py01_topic/lib/python3.10/site-packages:/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/lib/python3.13/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py01_topic build --build-base /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/build/py01_topic/build install --record /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/build/py01_topic/install.log --single-version-externally-managed install_data
+[0.733s] running egg_info
+[0.733s] creating ../../build/py01_topic/py01_topic.egg-info
+[0.733s] writing ../../build/py01_topic/py01_topic.egg-info/PKG-INFO
+[0.733s] writing dependency_links to ../../build/py01_topic/py01_topic.egg-info/dependency_links.txt
+[0.734s] writing entry points to ../../build/py01_topic/py01_topic.egg-info/entry_points.txt
+[0.734s] writing requirements to ../../build/py01_topic/py01_topic.egg-info/requires.txt
+[0.734s] writing top-level names to ../../build/py01_topic/py01_topic.egg-info/top_level.txt
+[0.734s] writing manifest file '../../build/py01_topic/py01_topic.egg-info/SOURCES.txt'
+[0.734s] reading manifest file '../../build/py01_topic/py01_topic.egg-info/SOURCES.txt'
+[0.735s] writing manifest file '../../build/py01_topic/py01_topic.egg-info/SOURCES.txt'
+[0.735s] running build
+[0.735s] running build_py
+[0.735s] creating /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/build/py01_topic/build
+[0.735s] creating /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/build/py01_topic/build/lib
+[0.735s] creating /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/build/py01_topic/build/lib/py01_topic
+[0.735s] copying py01_topic/demo03_talker_stu.py -> /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/build/py01_topic/build/lib/py01_topic
+[0.735s] copying py01_topic/demo04_listener_stu.py -> /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/build/py01_topic/build/lib/py01_topic
+[0.735s] copying py01_topic/demo01_talker_py.py -> /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/build/py01_topic/build/lib/py01_topic
+[0.735s] copying py01_topic/__init__.py -> /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/build/py01_topic/build/lib/py01_topic
+[0.735s] copying py01_topic/demo02_listener_py.py -> /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/build/py01_topic/build/lib/py01_topic
+[0.735s] running install
+[0.735s] running install_lib
+[0.736s] creating /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/py01_topic/lib/python3.10/site-packages/py01_topic
+[0.736s] copying /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/build/py01_topic/build/lib/py01_topic/demo03_talker_stu.py -> /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/py01_topic/lib/python3.10/site-packages/py01_topic
+[0.736s] copying /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/build/py01_topic/build/lib/py01_topic/demo04_listener_stu.py -> /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/py01_topic/lib/python3.10/site-packages/py01_topic
+[0.736s] copying /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/build/py01_topic/build/lib/py01_topic/demo01_talker_py.py -> /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/py01_topic/lib/python3.10/site-packages/py01_topic
+[0.736s] copying /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/build/py01_topic/build/lib/py01_topic/__init__.py -> /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/py01_topic/lib/python3.10/site-packages/py01_topic
+[0.736s] copying /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/build/py01_topic/build/lib/py01_topic/demo02_listener_py.py -> /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/py01_topic/lib/python3.10/site-packages/py01_topic
+[0.736s] byte-compiling /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/py01_topic/lib/python3.10/site-packages/py01_topic/demo03_talker_stu.py to demo03_talker_stu.cpython-310.pyc
+[0.737s] byte-compiling /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/py01_topic/lib/python3.10/site-packages/py01_topic/demo04_listener_stu.py to demo04_listener_stu.cpython-310.pyc
+[0.737s] byte-compiling /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/py01_topic/lib/python3.10/site-packages/py01_topic/demo01_talker_py.py to demo01_talker_py.cpython-310.pyc
+[0.737s] byte-compiling /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/py01_topic/lib/python3.10/site-packages/py01_topic/__init__.py to __init__.cpython-310.pyc
+[0.737s] byte-compiling /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/py01_topic/lib/python3.10/site-packages/py01_topic/demo02_listener_py.py to demo02_listener_py.cpython-310.pyc
+[0.737s] running install_data
+[0.737s] creating /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/py01_topic/share/ament_index
+[0.737s] creating /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/py01_topic/share/ament_index/resource_index
+[0.737s] creating /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/py01_topic/share/ament_index/resource_index/packages
+[0.737s] copying resource/py01_topic -> /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/py01_topic/share/ament_index/resource_index/packages
+[0.737s] copying package.xml -> /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/py01_topic/share/py01_topic
+[0.737s] running install_egg_info
+[0.738s] Copying ../../build/py01_topic/py01_topic.egg-info to /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/py01_topic/lib/python3.10/site-packages/py01_topic-0.0.0-py3.10.egg-info
+[0.739s] running install_scripts
+[0.749s] Installing demo01_talker_py script to /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/py01_topic/lib/py01_topic
+[0.749s] Installing demo02_listener_py script to /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/py01_topic/lib/py01_topic
+[0.749s] Installing demo03_talker_stu script to /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/py01_topic/lib/py01_topic
+[0.750s] Installing demo04_listener_stu script to /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/py01_topic/lib/py01_topic
+[0.750s] writing list of installed files to '/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/build/py01_topic/install.log'
+[0.770s] Invoked command in '/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/src/py01_topic' returned '0': AMENT_PREFIX_PATH=/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/lib:/usr/lib/x86_64-linux-gnu:/home/zhangjinrui/ROS2/dev_ws_humble/install/learning_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu PYTHONPATH=/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/build/py01_topic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/py01_topic/lib/python3.10/site-packages:/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/install/base_interfaces_demo/lib/python3.13/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py01_topic build --build-base /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/build/py01_topic/build install --record /home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws02_plumbing/build/py01_topic/install.log --single-version-externally-managed install_data
