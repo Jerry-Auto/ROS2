@@ -27,7 +27,7 @@ public:
     // 获取参数数据类型
     RCLCPP_INFO(rclcpp::get_logger("rclcpp"),"p1 type_name = %s", p1.get_type_name().c_str());
     // 将参数值转换成字符串类型
-    RCLCPP_INFO(rclcpp::get_logger("rclcpp"),"p1 value_to_msg = %s", p1.value_to_string().c_str()); 
+    RCLCPP_INFO(rclcpp::get_logger("rclcpp"),"p2 value_to_msg = %s", p2.value_to_string().c_str()); 
     }
 
 
