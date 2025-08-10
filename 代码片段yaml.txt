@@ -1,0 +1,96 @@
+{
+	// Place your snippets for yaml here. Each snippet is defined under a snippet name and has a prefix, body and 
+	// description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the 
+	// same ids are connected.
+	// Example:
+	// "Print to console": {
+	// 	"prefix": "log",
+	// 	"body": [
+	// 		"console.log('$1');",
+	// 		"$2"
+	// 	],
+	// 	"description": "Log output to console"
+	// }
+
+	"ros2_launch文件配置": {
+		"prefix": "ros2_launch_yaml",
+		"body": [
+		"launch:",
+		"# #--------------使用节点-----------------",
+		"  - node:",
+		"      pkg: \"turtlesim\"",
+		"      exec: \"turtlesim_node\"",
+		"      name: \"t1\"",
+		"  - node:",
+		"      pkg: \"turtlesim\"",
+		"      exec: \"turtlesim_node\"",
+		"      name: \"t2\"",
+		"",
+		"  - node:",
+		"      pkg: \"turtlesim\"",
+		"      exec: \"turtlesim_node\"",
+		"      name: \"t2\"",
+		"      namespace: \"ns\"",
+		"      exec_name: \"my_yaml\"",
+		"      # respawn: \"true\"",
+		"      respawn: \"false\"",
+		"      param:",
+		"        - name: \"background_r\"",
+		"          value: 100",
+		"        # - from: \"$(find-pkg-share cpp01_launch)/config/xixi.yaml\"",
+		"      # ros_args: \"--remap __ns:=/xxx/yyy\"",
+		"      args: \"--ros-args --remap __ns:=/xxx/yyy\"",
+		"",
+		"# #--------------调用指令-----------------",
+		"  - executable:",
+		"      cmd: \"ros2 run turtlesim turtlesim_node\"",
+		"      output: \"both\"",
+		"",
+		"# #--------------使用动态参数-----------------",
+		"  # 1.声明参数",
+		"  - arg:",
+		"      name: \"bg_b\"",
+		"      default: \"50\"",
+		"  # 2.调用参数",
+		"  - node:",
+		"      pkg: \"turtlesim\"",
+		"      exec: \"turtlesim_node\"",
+		"      param:",
+		"        - name: \"background_b\"",
+		"          value: $(var bg_b)",
+		"# 3.launch执行时动态传参",
+		"# ros2 launch cpp01_launch yaml04_args_launch.yaml bg_b:=0",
+		"",
+		"# #--------------调用其他launch-----------------",
+		"  - let:",
+		"      name: \"bg_b\"",
+		"      value: \"245\"",
+		"  - include:",
+		"      file: \"$(find-pkg-share cpp01_launch)/launch/yaml/yaml04_args_launch.yaml\"",
+		"",
+		"# #------------------节点分组-------------------",
+		"  - group:",
+		"      - push-ros-namespace:",
+		"          namespace: \"g1\"",
+		"      - node:",
+		"          pkg: \"turtlesim\"",
+		"          exec: \"turtlesim_node\"",
+		"          name: \"t1\"",
+		"      - node:",
+		"          pkg: \"turtlesim\"",
+		"          exec: \"turtlesim_node\"",
+		"          name: \"t2\"",
+		"",
+		"  - group:",
+		"      - push-ros-namespace:",
+		"          namespace: \"g2\"",
+		"      - node:",
+		"          pkg: \"turtlesim\"",
+		"          exec: \"turtlesim_node\"",
+		"          name: \"t3\"",
+		""
+		],
+		"description": "配置launch文件模板"
+	}
+}
