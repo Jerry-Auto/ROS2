@@ -57,9 +57,22 @@ public:
     // 3-3.创建坐标点订阅方并订阅指定话题；
     point_sub_.subscribe(this, "point");
     // 3-4.创建消息过滤器过滤被处理的数据；
+    /*  
+    F & f,                                    订阅的对象
+    BufferT & buffer,                         坐标监听缓存
+    const std::string & target_frame,         目标坐标系（base_link）
+    uint32_t queue_size,                      缓冲队列长度
+    const rclcpp::node_interfaces::NodeLoggingInterface::SharedPtr & node_logging, 
+    const rclcpp::node_interfaces::NodeClockInterface::SharedPtr & node_clock,
+    std::chrono::duration<TimeRepT, TimeT> buffer_timeout =std::chrono::duration<TimeRepT, TimeT>::max()) 超时时间*/
     tf2_filter_ = std::make_shared<tf2_ros::MessageFilter<geometry_msgs::msg::PointStamped>>(
-      point_sub_, *tf2_buffer_, target_frame_, 100, this->get_node_logging_interface(),
-      this->get_node_clock_interface(), buffer_timeout);
+      point_sub_, 
+      *tf2_buffer_, 
+      target_frame_, 
+      100, 
+      this->get_node_logging_interface(),
+      this->get_node_clock_interface(), 
+      buffer_timeout);
     // 3-5.为消息过滤器注册转换坐标点数据的回调函数。
     tf2_filter_->registerCallback(&MessageFilterPointListener::msgCallback, this);
   }

@@ -44,3 +44,6 @@ def main():
     node = MinimalPointPublisher()
     rclpy.spin(node)
     # 5.释放资源。3-3.组织并发布坐标点消息。
+
+if __name__ == "__main__":
+    main()
