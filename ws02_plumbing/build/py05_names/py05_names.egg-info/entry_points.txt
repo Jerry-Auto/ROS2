@@ -1,3 +1,0 @@
-[console_scripts]
-demo01_names_py = py05_names.demo01_names_py:main
-

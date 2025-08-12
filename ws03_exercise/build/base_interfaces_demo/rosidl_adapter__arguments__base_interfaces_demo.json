@@ -1,7 +1,0 @@
-{
-  "package_name": "base_interfaces_demo",
-  "non_idl_tuples": [
-    "/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws03_exercise/src/base_interfaces_demo:srv/Distance.srv",
-    "/home/zhangjinrui/AppDisk/learn_ros2/ROS2/ws03_exercise/src/base_interfaces_demo:action/Nav.action"
-  ]
-}

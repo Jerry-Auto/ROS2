@@ -1,3 +1,0 @@
-[console_scripts]
-hello = pkg02_hello_py.hello:main
-

@@ -1,6 +1,0 @@
-int32 num1
-
-int32 num2
-
-int32 num3
-

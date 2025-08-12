@@ -1,6 +1,0 @@
-[console_scripts]
-demo01_talker_py = py01_topic.demo01_talker_py:main
-demo02_listener_py = py01_topic.demo02_listener_py:main
-demo03_talker_stu = py01_topic.demo03_talker_stu:main
-demo04_listener_stu = py01_topic.demo04_listener_stu:main
-
