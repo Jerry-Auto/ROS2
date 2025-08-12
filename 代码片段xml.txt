@@ -14,16 +14,123 @@
 	// }
 
 
-	"ros2定义新接口pkg.xml配置": {
-		"prefix": "ros2_interface_conf",
+	"ros2定义新(msg、srv)接口pkg.xml配置": {
+		"prefix": "ros2_interface_srv_msg",
 		"body": [
 			"",
+			"<!-- 编译依赖，只用声明一次 -->",
 			"<build_depend>rosidl_default_generators</build_depend>",
+			"<!-- 运行依赖，只用声明一次 -->",
 			"<exec_depend>rosidl_default_runtime</exec_depend>",
+			"<!-- 所属的功能包组，只用声明一次-->",
 			"<member_of_group>rosidl_interface_packages</member_of_group>",
 			"",
 		],
-		"description": "conf interface package.xml"
+		"description": "conf msg、srv interface package.xml"
+	},
+
+	"ros2定义新action接口pkg.xml配置": {
+		"prefix": "ros2_interface_action",
+		"body": [
+			"",
+			"<!-- 编译工具依赖，只用声明一次 -->",
+			"<buildtool_depend>rosidl_default_generators</buildtool_depend>",
+			"<!-- 动作通讯依赖 -->",
+			"<depend>action_msgs</depend>",
+			"<!-- 所属的功能包组，只用声明一次-->",
+			"<member_of_group>rosidl_interface_packages</member_of_group>",
+			"",
+		],
+		"description": "conf action interface package.xml"
+	},
+
+	"ros2_launch文件配置": {
+		"prefix": "ros2_launch_xml",
+		"body": [
+				"<launch>",
+				"",
+				"    <!-- ============================================== -->",
+				"    <node pkg=\"turtlesim\" exec=\"turtlesim_node\" name=\"t1\"/>",
+				"    <node pkg=\"turtlesim\" exec=\"turtlesim_node\" name=\"t2\"/>",
+"",
+"",
+				"    <!-- ============================================== -->",
+				"    <!-- 演示node的使用 -->",
+				"    <node",
+				"        pkg=\"turtlesim\"",
+				"        exec=\"turtlesim_node\"",
+				"        name=\"t1\"",
+				"        namespace=\"ns_1\"",
+				"        exec_name=\"my_label_xxxx\"",
+				"        respawn=\"False\"",
+				"    />",
+"",
+				"    <node pkg=\"turtlesim\" exec=\"turtlesim_node\" name=\"t2\">",
+				"        <!-- 方式1：设置单个参数 -->",
+				"        <!-- <param name=\"background_r\" value=\"235\" /> -->",
+"",
+				"        <!-- 方式2：从YAML中读取参数 -->",
+				"        <param from=\"$(find-pkg-share cpp01_launch)/config/xixi.yaml\" />",
+				"    </node>",
+"",
+				"    <node pkg=\"turtlesim\" exec=\"turtlesim_node\"",
+				"        name=\"t3\" ros_args=\"--remap __ns:=/xxx/yyy\" />",
+"",
+				"    <node pkg=\"turtlesim\" exec=\"turtlesim_node\"",
+				"        name=\"t4\" args=\"--ros-args --remap __ns:=/xxx/yyy\" />",
+"",
+				"        ",
+				"    <!-- ============================================== -->",
+				"    <!-- 执行终端指令 -->",
+				"    <executable cmd=\"ros2 run turtlesim turtlesim_node\" output=\"both\" />",
+"",
+"",
+				"    <!-- ============================================== -->",
+				"    <!-- 需要启动turtlesim_node节点时动态设置背景色 -->",
+				"    <!-- 1.声明参数 -->",
+				"    <arg name=\"bg_r\" default=\"255\" />",
+"",
+				"    <!-- 2.调用参数 -->",
+				"    <node pkg=\"turtlesim\" exec=\"turtlesim_node\">",
+				"        <param name=\"background_r\" value=\"$(var bg_r)\" />",
+				"    </node>",
+"",
+				"    <!-- 3.launch文件执行时动态传参 -->",
+				"    <!-- ros2 launch cpp01_launch xml04_args_launch.xml bg_r:=0 -->",
+"",
+"",
+				"    <!-- ============================================== -->",
+				"    <!-- 动态导入参数 -->",
+				"    <let name=\"bg_r\" value=\"50\" />",
+"",
+"",
+				"    <!-- ============================================== -->",
+				"    <!-- 文件包含 -->",
+				"    <include file=\"$(find-pkg-share cpp01_launch)/launch/xml/xml04_args_launch.xml\" />",
+"",
+"",
+				"    <!-- ============================================== -->",
+				"    <!-- 节点分组 -->",
+				"    <group>",
+				"        <!-- 设置namespace -->",
+				"        <push-ros-namespace namespace=\"g1\" />",
+"",
+				"        <!-- 设置被包含的节点 -->",
+				"        <node pkg=\"turtlesim\" exec=\"turtlesim_node\" name=\"t1\" />",
+				"        <node pkg=\"turtlesim\" exec=\"turtlesim_node\" name=\"t2\" />",
+				"    </group>",
+"",
+				"    <group>",
+				"        <!-- 设置namespace -->",
+				"        <push-ros-namespace namespace=\"g2\" />",
+"",
+				"        <!-- 设置被包含的节点 -->",
+				"        <node pkg=\"turtlesim\" exec=\"turtlesim_node\" name=\"t3\" />",
+				"    </group>",
+"",
+				"</launch> ",
+		],
+		"description": "配置launch文件模板"
 	},
 
 	"ros2定义robot的urdf文件": {
@@ -87,13 +194,4 @@
 		],
 		"description": "定义机器人的urdf文件模板"
 	}
-
-	// "Print to console": {
-	// 	"prefix": "log",
-	// 	"body": [
-	// 		"console.log('$1');",
-	// 		"$2"
-	// 	],
-	// 	"description": "Log output to console"
-	// }
 }

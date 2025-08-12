@@ -45,5 +45,22 @@
 				")",
 		],
 		"description": "conf cpp cmakelists.txt"
+	},
+
+	"ROS2 文件夹install": {
+		"prefix": "ros2_directory_install",
+		"body": [
+			"install(DIRECTORY new_directory DESTINATION share/${PROJECT_NAME})",
+		],
+		"description": "安装文件夹cmake配置"
 	}
+
+	// "Print to console": {
+	// 	"prefix": "log",
+	// 	"body": [
+	// 		"console.log('$1');",
+	// 		"$2"
+	// 	],
+	// 	"description": "Log output to console"
+	// }
 }
